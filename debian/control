@@ -1,0 +1,40 @@
+Source: yelp
+Section: gnome
+Priority: optional
+Maintainer: Matt Sealey <matt@genesi-usa.com>
+Standards-Version: 3.9.0
+Build-Depends: debhelper (>= 5),
+               gnome-pkg-tools (>= 0.10),
+               cdbs (>= 0.4.41),
+               quilt,
+               gnome-common,
+               docbook-to-man,
+               intltool (>= 0.35.0),
+               libgconf2-dev,
+               libglib2.0-dev (>= 2.16),
+               gnome-doc-utils (>= 0.19.1),
+               libgtk2.0-dev (>= 2.18.0),
+               libxml2-dev (>= 2.6.5),
+               libxslt1-dev (>= 1.1.4),
+               libstartup-notification0-dev (>= 0.8),
+               libdbus-glib-1-dev,
+               librarian-dev (>= 0.7.0),
+               libxt-dev,
+               zlib1g-dev,
+               libbz2-dev,
+               xulrunner-dev (>= 1.9.1.7),
+
+Package: yelp
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         gnome-doc-utils (>= 0.17.2),
+         docbook-xml (>= 4.1.2),
+         xml-core,
+         man-db (>= 2.5.1-1)
+Recommends: gnome-user-guide
+Suggests: ttf-dejavu
+Breaks: scrollkeeper (<< 0.4)
+Replaces: gman
+Description: Help browser for GNOME
+ This package contains the GNOME online help browser application.
