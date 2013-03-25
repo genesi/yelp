@@ -100,12 +100,30 @@ yelp_man_parser_parse_file (YelpManParser   *parser,
 {
     GError *errormsg = NULL;
     /*gchar *ptr = NULL;*/
+    gchar **recode_argv;
+    gint recode_stdout_fd;
 
     g_return_val_if_fail (parser != NULL, NULL);
     g_return_val_if_fail (file != NULL, NULL);
     g_return_val_if_fail (encoding != NULL, NULL);
 	
-    parser->channel = yelp_io_channel_new_file (file, NULL);
+    recode_argv = g_new (gchar *, 5);
+    recode_argv[0] = g_strdup ("man");
+    recode_argv[1] = g_strdup ("--recode");
+    recode_argv[2] = g_strdup ("UTF-8");
+    recode_argv[3] = g_strdup (file);
+    recode_argv[4] = NULL;
+    if (g_spawn_async_with_pipes (NULL, recode_argv, NULL,
+				  G_SPAWN_SEARCH_PATH |
+				  G_SPAWN_STDERR_TO_DEV_NULL,
+				  NULL, NULL, NULL,
+				  NULL, &recode_stdout_fd, NULL,
+				  NULL)) {
+	parser->channel = g_io_channel_unix_new (recode_stdout_fd);
+	encoding = "UTF-8";
+    } else
+	parser->channel = yelp_io_channel_new_file (file, NULL);
+    g_strfreev (recode_argv);
 
     if (!parser->channel)
 	return NULL;
