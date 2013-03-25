@@ -336,6 +336,7 @@ main (int argc, char **argv)
 	gboolean retval;
 	gboolean       session_started = FALSE;
 	gchar *local_id;
+	gchar *xdg_dirs;
 	GOptionContext *context;
 
 	g_thread_init(NULL);
@@ -349,6 +350,15 @@ main (int argc, char **argv)
 	if (local_id != NULL && *local_id != '\0') {
 		startup_id = g_strdup (local_id);
 		putenv ("DESKTOP_STARTUP_ID=");
+	}
+
+	xdg_dirs = (gchar *) g_getenv ("XDG_DATA_DIRS");
+	if (xdg_dirs) {
+		xdg_dirs = g_strconcat (xdg_dirs, ":/var/lib/doc-base", NULL);
+		g_setenv ("XDG_DATA_DIRS", xdg_dirs, TRUE);
+		g_free (xdg_dirs);
+	} else {
+		g_setenv ("XDG_DATA_DIRS", "/usr/local/share:/usr/share:/var/lib/doc-base", TRUE);
 	}
 
 	/* Commandline parsing is done here */
