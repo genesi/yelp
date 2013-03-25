@@ -250,6 +250,7 @@ esac
 if test "$MOZILLA" = "libxul-embedding" -o "$MOZILLA" = "libxul"; then
 	PKG_CHECK_MODULES([MOZILLA_COMPONENT],[$MOZILLA $gecko_cv_extra_pkg_dependencies])
 	MOZILLA_COMPONENT_CFLAGS="$MOZILLA_COMPONENT_CFLAGS `$PKG_CONFIG --cflags ${gecko_cv_gecko}` `$PKG_CONFIG --define-variable=includetype=unstable --cflags ${gecko_cv_gecko}`"
+	MOZILLA_GLUE_LIBS="$MOZILLA_GLUE_LIBS -ldl"
 else
 	PKG_CHECK_MODULES([MOZILLA_COMPONENT],[${gecko_cv_gecko}-xpcom >= $gecko_min_version $gecko_cv_extra_pkg_dependencies])
 fi
