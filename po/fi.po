@@ -1,0 +1,1844 @@
+# Finnish translation of Yelp
+# Copyright (C) 2001, 2002, 2003,2004 Free Software Foundation, Inc.
+# Suomennos: http://gnome-fi.sourceforge.net/
+# Henri Mannerberg <email-not@available.invalid>, 2002-2003.
+# Lauri Nurmi <lanurmi@iki.fi>, 2003, 2004.
+# Pauli Virtanen <pauli.virtanen@hut.fi>, 2004-2005.
+# Ilkka Tuohela <hile@iki.fi>, 2005-2009. 
+# Tommi Vainikainen <thv@iki.fi>, 2009.
+#
+# See http://www.cs.tut.fi/~jkorpela/suomi/lain.html on translation of
+# the quotation marks.
+#
+# Note http://mail.gnome.org/archives/gnome-i18n/2004-August/msg00032.html that
+# recommends the quotation marks be written explicitly, not as entities.
+msgid ""
+msgstr ""
+"Project-Id-Version: yelp\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-11 16:51+0300\n"
+"PO-Revision-Date: 2009-08-11 16:58+0300\n"
+"Last-Translator: Tommi Vainikainen <thv@iki.fi>\n"
+"Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+
+#: ../data/info.xml.in.h:1
+msgid "GNU Info Pages"
+msgstr "GNU info-sivut"
+
+#: ../data/info.xml.in.h:2
+msgid "Traditional command line help (info)"
+msgstr "Perinteinen komentoriviohje (info)"
+
+#: ../data/man.xml.in.h:1
+msgid "Applications"
+msgstr "Sovellukset"
+
+#: ../data/man.xml.in.h:2
+msgid "BLT Functions"
+msgstr "BLT-funktiot"
+
+#: ../data/man.xml.in.h:3
+msgid "Configuration Files"
+msgstr "Asetustiedostot"
+
+#: ../data/man.xml.in.h:4
+msgid "Curses Functions"
+msgstr "Curses-funktiot"
+
+#: ../data/man.xml.in.h:5 ../data/toc.xml.in.h:35
+msgid "Development"
+msgstr "Ohjelmakehitys"
+
+#: ../data/man.xml.in.h:6
+msgid "FORTRAN Functions"
+msgstr "FORTRAN-funktiot"
+
+#: ../data/man.xml.in.h:7 ../data/toc.xml.in.h:56
+msgid "Games"
+msgstr "Pelit"
+
+#: ../data/man.xml.in.h:8
+msgid "Hardware Devices"
+msgstr "Laitteisto"
+
+#: ../data/man.xml.in.h:9
+msgid "Kernel Routines"
+msgstr "Kernelrutiinit"
+
+#: ../data/man.xml.in.h:10
+msgid "Manual Pages"
+msgstr "Manuaalisivut"
+
+#: ../data/man.xml.in.h:11
+msgid "Network Audio Sound Functions"
+msgstr "Funktiot äänen käsittelyyn verkon yli"
+
+#: ../data/man.xml.in.h:12
+msgid "OpenSSL Applications"
+msgstr "OpenSSL-sovellukset"
+
+#: ../data/man.xml.in.h:13
+msgid "OpenSSL Configuration"
+msgstr "OpenSSL-asetukset"
+
+#: ../data/man.xml.in.h:14
+msgid "OpenSSL Functions"
+msgstr "OpenSSL-funktiot"
+
+#: ../data/man.xml.in.h:15
+msgid "OpenSSL Overviews"
+msgstr "OpenSSL-yleiskatsaukset"
+
+#: ../data/man.xml.in.h:16
+msgid "Overviews"
+msgstr "Yleiskatsaukset"
+
+#: ../data/man.xml.in.h:17
+msgid "POSIX Functions"
+msgstr "POSIX-funktiot"
+
+#: ../data/man.xml.in.h:18
+msgid "POSIX Headers"
+msgstr "POSIX-otsikot"
+
+#: ../data/man.xml.in.h:19
+msgid "Perl Functions"
+msgstr "Perl-funktiot"
+
+#: ../data/man.xml.in.h:20
+msgid "Qt Functions"
+msgstr "Qt-funktiot"
+
+#: ../data/man.xml.in.h:21
+msgid "Readline Functions"
+msgstr "Readline-funktiot"
+
+#: ../data/man.xml.in.h:22
+msgid "Section 0p"
+msgstr "Osa 0p"
+
+#: ../data/man.xml.in.h:23
+msgid "Section 1m"
+msgstr "Osa 1m"
+
+#: ../data/man.xml.in.h:24
+msgid "Section 1ssl"
+msgstr "Osa 1ssl"
+
+#: ../data/man.xml.in.h:25
+msgid "Section 1x"
+msgstr "Osa 1x"
+
+#: ../data/man.xml.in.h:26
+msgid "Section 2"
+msgstr "Osa 2"
+
+#: ../data/man.xml.in.h:27
+msgid "Section 3blt"
+msgstr "Osa 3blt"
+
+#: ../data/man.xml.in.h:28
+msgid "Section 3f"
+msgstr "Osa 3f"
+
+#: ../data/man.xml.in.h:29
+msgid "Section 3nas"
+msgstr "Osa 3nas"
+
+#: ../data/man.xml.in.h:30
+msgid "Section 3p"
+msgstr "Osa 3p"
+
+#: ../data/man.xml.in.h:31
+msgid "Section 3qt"
+msgstr "Osa 3qt"
+
+#: ../data/man.xml.in.h:32
+msgid "Section 3readline"
+msgstr "Osa 3readline"
+
+#: ../data/man.xml.in.h:33
+msgid "Section 3ssl"
+msgstr "Osa 3ssl"
+
+#: ../data/man.xml.in.h:34
+msgid "Section 3tiff"
+msgstr "Osa 3tiff"
+
+#: ../data/man.xml.in.h:35
+msgid "Section 4"
+msgstr "Osa 4"
+
+#: ../data/man.xml.in.h:36
+msgid "Section 4x"
+msgstr "Osa 4x"
+
+#: ../data/man.xml.in.h:37
+msgid "Section 5"
+msgstr "Osa 5"
+
+#: ../data/man.xml.in.h:38
+msgid "Section 5ssl"
+msgstr "Osa 5ssl"
+
+#: ../data/man.xml.in.h:39
+msgid "Section 5x"
+msgstr "Osa 5x"
+
+#: ../data/man.xml.in.h:40
+msgid "Section 6"
+msgstr "Osa 6"
+
+#: ../data/man.xml.in.h:41
+msgid "Section 6x"
+msgstr "Osa 6x"
+
+#: ../data/man.xml.in.h:42
+msgid "Section 7ssl"
+msgstr "Osa 7ssl"
+
+#: ../data/man.xml.in.h:43
+msgid "Section 7x"
+msgstr "Osa 7x"
+
+#: ../data/man.xml.in.h:44
+msgid "Section 9"
+msgstr "Osa 9"
+
+#: ../data/man.xml.in.h:45
+msgid "Sections 1, 1p, 1g and 1t"
+msgstr "Osat 1, 1p, 1g ja 1t"
+
+#: ../data/man.xml.in.h:46
+msgid "Sections 3, 3o, and 3t"
+msgstr "Osat 3, 3o ja 3t"
+
+#: ../data/man.xml.in.h:47
+msgid "Sections 3form and 3menu"
+msgstr "Osat 3form ja 3menu"
+
+#: ../data/man.xml.in.h:48
+msgid "Sections 3ncurses and 3curses"
+msgstr "Osat 3ncurses ja 3curses"
+
+#: ../data/man.xml.in.h:49
+msgid "Sections 3pm and 3perl"
+msgstr "Osat 3pm ja 3perl"
+
+#: ../data/man.xml.in.h:50
+msgid "Sections 3x and 3X11"
+msgstr "Osat 3x ja 3X11"
+
+#: ../data/man.xml.in.h:51
+msgid "Sections 7 and 7gcc"
+msgstr "Osat 7 ja 7gcc"
+
+#: ../data/man.xml.in.h:52
+msgid "Sections 8 and 8l"
+msgstr "Osat 8 ja 8l"
+
+#: ../data/man.xml.in.h:53
+msgid "System Administration"
+msgstr "Järjestelmänvalvonta"
+
+#: ../data/man.xml.in.h:54
+msgid "System Calls"
+msgstr "Järjestelmäkutsut"
+
+#: ../data/man.xml.in.h:55
+msgid "System V Form/Menu Functions"
+msgstr "System V lomake- ja valikkofunktiot"
+
+#: ../data/man.xml.in.h:56
+msgid "TIFF Functions"
+msgstr "Tiff-funktiot"
+
+#: ../data/man.xml.in.h:57
+msgid "Termcap Applications"
+msgstr "Termcap-sovellukset"
+
+#: ../data/man.xml.in.h:58
+msgid "Traditional command line help (man)"
+msgstr "Perinteinen komentoriviopaste (man)"
+
+#: ../data/man.xml.in.h:59
+msgid "X11 Applications"
+msgstr "X11-sovellukset"
+
+#: ../data/man.xml.in.h:60
+msgid "X11 Configuration"
+msgstr "X11-asetukset"
+
+#: ../data/man.xml.in.h:61
+msgid "X11 Devices"
+msgstr "X11-laitteet"
+
+#: ../data/man.xml.in.h:62
+msgid "X11 Functions"
+msgstr "X11-funktiot"
+
+#: ../data/man.xml.in.h:63
+msgid "X11 Games"
+msgstr "X11-pelit"
+
+#: ../data/man.xml.in.h:64
+msgid "X11 Overviews"
+msgstr "X11-yleiskatsaukset"
+
+#: ../data/toc.xml.in.h:1
+msgid "2D Graphics"
+msgstr "2D-grafiikka"
+
+#: ../data/toc.xml.in.h:2
+msgid "3D Graphics"
+msgstr "3D-grafiikka"
+
+#: ../data/toc.xml.in.h:3 ../data/ui/yelp-preferences.ui.h:1
+msgid "Accessibility"
+msgstr "Esteettömyys"
+
+#: ../data/toc.xml.in.h:4
+msgid "Action Games"
+msgstr "Toimintapelit"
+
+#: ../data/toc.xml.in.h:5
+msgid "Adventure Games"
+msgstr "Seikkailupelit"
+
+#: ../data/toc.xml.in.h:6
+msgid "Amusement"
+msgstr "Viihde"
+
+#: ../data/toc.xml.in.h:7
+msgid "Applications for viewing and manipulating graphics"
+msgstr "Sovellukset grafiikan katseluun ja muokkaukseen"
+
+#: ../data/toc.xml.in.h:8
+msgid "Applications related to audio and video"
+msgstr "Äänen ja videon käsittelyyn liittyvät sovellukset"
+
+#: ../data/toc.xml.in.h:9
+msgid "Applications that teach or aid in learning"
+msgstr "Opetukseen tai sen välineiksi tarkoitetut ohjelmat"
+
+#: ../data/toc.xml.in.h:10
+msgid "Arcade Games"
+msgstr "Pelihallipelit"
+
+#: ../data/toc.xml.in.h:11
+msgid "Archiving Tools"
+msgstr "Arkistointityökalut"
+
+#: ../data/toc.xml.in.h:12
+msgid "Art"
+msgstr "Taide"
+
+#: ../data/toc.xml.in.h:13
+msgid "Artificial Intelligence"
+msgstr "Tekoäly"
+
+#: ../data/toc.xml.in.h:14
+msgid "Astronomy"
+msgstr "Astronomia"
+
+#: ../data/toc.xml.in.h:15
+msgid "Biology"
+msgstr "Biologia"
+
+#: ../data/toc.xml.in.h:16
+msgid "Blocks Games"
+msgstr "Palikkapelit"
+
+#: ../data/toc.xml.in.h:17
+msgid "Board Games"
+msgstr "Lautapelit"
+
+#: ../data/toc.xml.in.h:18
+msgid "Building"
+msgstr "Rakentaminen"
+
+#: ../data/toc.xml.in.h:19
+msgid "Calculator"
+msgstr "Laskin"
+
+#: ../data/toc.xml.in.h:20
+msgid "Calendar"
+msgstr "Kalenteri"
+
+#: ../data/toc.xml.in.h:21
+msgid "Card Games"
+msgstr "Korttipelit"
+
+#: ../data/toc.xml.in.h:22
+msgid "Charting Tools"
+msgstr "Kaaviotyökalut"
+
+#: ../data/toc.xml.in.h:23
+msgid "Chat"
+msgstr "Pikaviestimet"
+
+#: ../data/toc.xml.in.h:24
+msgid "Chemistry"
+msgstr "Kemia"
+
+#: ../data/toc.xml.in.h:25
+msgid "Clocks"
+msgstr "Kellot"
+
+#: ../data/toc.xml.in.h:26
+msgid "Compression Tools"
+msgstr "Pakkaustyökalut"
+
+#: ../data/toc.xml.in.h:27
+msgid "Computer Science"
+msgstr "Tietojenkäsittelytiede"
+
+#: ../data/toc.xml.in.h:28
+msgid "Construction"
+msgstr "Rakentaminen"
+
+#: ../data/toc.xml.in.h:29
+msgid "Contact Management"
+msgstr "Yhteystietojen hallinta"
+
+#: ../data/toc.xml.in.h:30
+msgid "Data Visualization"
+msgstr "Tiedon visualisointi"
+
+#: ../data/toc.xml.in.h:31
+msgid "Databases"
+msgstr "Tietokannat"
+
+#: ../data/toc.xml.in.h:32
+msgid "Debuggers"
+msgstr "Virheenjäljitysohjelmat"
+
+#: ../data/toc.xml.in.h:33
+msgid "Desktop"
+msgstr "Työpöytä"
+
+#: ../data/toc.xml.in.h:34
+msgid "Desktop Settings"
+msgstr "Työpöydän asetukset"
+
+#: ../data/toc.xml.in.h:36
+msgid "Dialup"
+msgstr "Modeemikäyttö"
+
+#: ../data/toc.xml.in.h:37
+msgid "Dictionaries"
+msgstr "Sanakirjat"
+
+#. Translators: this is a menu title for burning audio and video to dics
+#: ../data/toc.xml.in.h:39
+msgid "Disc Burning"
+msgstr "Levyjen kirjoitus"
+
+#: ../data/toc.xml.in.h:40
+msgid "Economy"
+msgstr "Talous"
+
+#: ../data/toc.xml.in.h:41
+msgid "Education"
+msgstr "Opetus"
+
+#: ../data/toc.xml.in.h:42
+msgid "Electricity"
+msgstr "Sähkö"
+
+#: ../data/toc.xml.in.h:43
+msgid "Electronics"
+msgstr "Elektroniikka"
+
+#: ../data/toc.xml.in.h:44
+msgid "Email Tools"
+msgstr "Sähköpostityökalut"
+
+#: ../data/toc.xml.in.h:45
+msgid "Emulator"
+msgstr "Emulaattorit"
+
+#: ../data/toc.xml.in.h:46
+msgid "Engineering"
+msgstr "Insinöörityökalut"
+
+#: ../data/toc.xml.in.h:47
+msgid "File Manager"
+msgstr "Tiedostojen hallinta"
+
+#: ../data/toc.xml.in.h:48
+msgid "File Tools"
+msgstr "Tiedostotyökalut"
+
+#: ../data/toc.xml.in.h:49
+msgid "File Transfer"
+msgstr "Tiedostonsiirto"
+
+#: ../data/toc.xml.in.h:50
+msgid "Filesystem"
+msgstr "Tiedostojärjestelmä"
+
+#: ../data/toc.xml.in.h:51
+msgid "Financial Tools"
+msgstr "Taloustyökalut"
+
+#: ../data/toc.xml.in.h:52
+msgid "Flow Charting Tools"
+msgstr "Vuokaaviotyökalut"
+
+#: ../data/toc.xml.in.h:53
+msgid "GNOME Applications"
+msgstr "Gnome-sovellukset"
+
+#: ../data/toc.xml.in.h:54
+msgid "GTK"
+msgstr "GTK"
+
+#: ../data/toc.xml.in.h:55
+msgid "GUI Designers"
+msgstr "GUI-suunnittelu"
+
+#: ../data/toc.xml.in.h:57
+msgid "Generic applications for the GNOME environment"
+msgstr "Yleiset Gnome-työpöydän sovellukset"
+
+#: ../data/toc.xml.in.h:58
+msgid "Generic applications for the KDE environment"
+msgstr "Yleiset KDE-työpöydän sovellukset"
+
+#: ../data/toc.xml.in.h:59
+msgid "Geography"
+msgstr "Geografia"
+
+#: ../data/toc.xml.in.h:60
+msgid "Geology"
+msgstr "Geologia"
+
+#: ../data/toc.xml.in.h:61
+msgid "Geoscience"
+msgstr "Geotiede"
+
+#: ../data/toc.xml.in.h:62
+msgid "Graphics"
+msgstr "Grafiikka"
+
+#: ../data/toc.xml.in.h:63
+msgid "Guides and manuals for applications that connect to the outside world"
+msgstr "Ohjeita ulkomaailman kanssa liittyville ohjelmille"
+
+#: ../data/toc.xml.in.h:64
+msgid "Guides for getting involved in development"
+msgstr "Ohjeita osallistumisesta kehitykseen"
+
+#: ../data/toc.xml.in.h:65
+msgid "Ham Radio"
+msgstr "Radioamatöörit"
+
+#: ../data/toc.xml.in.h:66
+msgid "Hardware Settings"
+msgstr "Laitteistoasetukset"
+
+#: ../data/toc.xml.in.h:67
+msgid "Have some fun"
+msgstr "Pidä hauskaa"
+
+#: ../data/toc.xml.in.h:68
+msgid "History"
+msgstr "Historia"
+
+#: ../data/toc.xml.in.h:69
+msgid "IDEs"
+msgstr "IDE:t"
+
+#: ../data/toc.xml.in.h:70
+msgid "IRC Clients"
+msgstr "IRC-asiakkaat"
+
+#: ../data/toc.xml.in.h:71
+msgid "Image Processing"
+msgstr "Kuvankäsittely"
+
+#: ../data/toc.xml.in.h:72
+msgid "Instant Messaging"
+msgstr "Pikaviestimet"
+
+#: ../data/toc.xml.in.h:73
+msgid "Internet"
+msgstr "Internet"
+
+#: ../data/toc.xml.in.h:74
+msgid "Java"
+msgstr "Java"
+
+#: ../data/toc.xml.in.h:75
+msgid "KDE Applications"
+msgstr "KDE-sovellukset"
+
+#: ../data/toc.xml.in.h:76
+msgid "Kids Games"
+msgstr "Lasten pelit"
+
+#: ../data/toc.xml.in.h:77
+msgid ""
+"Learn more about making your system more accessible for a range of "
+"disabilities"
+msgstr ""
+"Lisätietoja kuinka tehdä järjestelmästäsi käytettävämpi erilaisista "
+"vammoista kärsiville"
+
+#: ../data/toc.xml.in.h:78
+msgid "Licenses"
+msgstr "Lisenssit"
+
+#: ../data/toc.xml.in.h:79
+msgid "Literature"
+msgstr "Kirjallisuus"
+
+#: ../data/toc.xml.in.h:80
+msgid "Logic Games"
+msgstr "Logiikkapelit"
+
+#: ../data/toc.xml.in.h:81
+msgid "Math"
+msgstr "Matematiikka"
+
+#: ../data/toc.xml.in.h:82
+msgid "Medical Software"
+msgstr "Lääketieteelliset ohjelmat"
+
+#: ../data/toc.xml.in.h:83
+msgid "Midi"
+msgstr "MIDI"
+
+#: ../data/toc.xml.in.h:84
+msgid "Miscellaneous Documentation"
+msgstr "Sekalaiset dokumentit"
+
+#: ../data/toc.xml.in.h:85
+msgid "Mixers"
+msgstr "Mikserit"
+
+#: ../data/toc.xml.in.h:86
+msgid "Monitor"
+msgstr "Näyttö"
+
+#: ../data/toc.xml.in.h:87
+msgid "Motif"
+msgstr "Motif"
+
+#: ../data/toc.xml.in.h:88
+msgid "Music"
+msgstr "Musiikki"
+
+#: ../data/toc.xml.in.h:89
+msgid "News"
+msgstr "Uutiset"
+
+#: ../data/toc.xml.in.h:90
+msgid "Numerical Analysis"
+msgstr "Numeerinen analyysi"
+
+#: ../data/toc.xml.in.h:91
+msgid "OCR"
+msgstr "Tekstin luku (OCR)"
+
+#: ../data/toc.xml.in.h:92
+msgid "Office Applications"
+msgstr "Toimistosovellukset"
+
+#: ../data/toc.xml.in.h:93
+msgid "Office applications"
+msgstr "Toimistosovellukset"
+
+#: ../data/toc.xml.in.h:94
+msgid "Other Documentation"
+msgstr "Muut ohjeet"
+
+#: ../data/toc.xml.in.h:95
+msgid "P2P"
+msgstr "P2P (vertaisverkko-ohjelmat)"
+
+#: ../data/toc.xml.in.h:96
+msgid "PDA Communication"
+msgstr "PDA-yhteydet"
+
+#: ../data/toc.xml.in.h:97
+msgid "Package Manager"
+msgstr "Pakettien hallinta"
+
+#: ../data/toc.xml.in.h:98
+msgid "Parallel Computing"
+msgstr "Rinnakkaislaskenta"
+
+#: ../data/toc.xml.in.h:99
+msgid "Photography"
+msgstr "Valokuvaus"
+
+#: ../data/toc.xml.in.h:100
+msgid "Physics"
+msgstr "Fysiikka"
+
+#. Translators: this is a menu title for audio and video players
+#: ../data/toc.xml.in.h:102
+msgid "Players"
+msgstr "Soittimet"
+
+#: ../data/toc.xml.in.h:103
+msgid "Presentation Tools"
+msgstr "Esitystyökalut"
+
+#: ../data/toc.xml.in.h:104 ../src/yelp-print.c:337 ../src/yelp-print.c:364
+msgid "Printing"
+msgstr "Tulostus"
+
+#: ../data/toc.xml.in.h:105
+msgid "Profiling Tools"
+msgstr "Profilointityökalut"
+
+#: ../data/toc.xml.in.h:106
+msgid "Project Management Tools"
+msgstr "Projektinhallinta"
+
+#: ../data/toc.xml.in.h:107
+msgid "Publishing"
+msgstr "Julkaisu"
+
+#: ../data/toc.xml.in.h:108
+msgid "Qt"
+msgstr "Qt"
+
+#: ../data/toc.xml.in.h:109
+msgid "Raster Graphics"
+msgstr "Rasterigrafiikka"
+
+#. Translators: this is a menu title for audio and video recorders
+#: ../data/toc.xml.in.h:111
+msgid "Recorders"
+msgstr "Nauhoittimet"
+
+#: ../data/toc.xml.in.h:112
+msgid "Remote Access"
+msgstr "Etäkäyttö"
+
+#: ../data/toc.xml.in.h:113
+msgid "Revision Control"
+msgstr "Versionhallinta"
+
+#: ../data/toc.xml.in.h:114
+msgid "Robotics"
+msgstr "Robotiikka"
+
+#: ../data/toc.xml.in.h:115
+msgid "Role Playing Games"
+msgstr "Roolipelit"
+
+#: ../data/toc.xml.in.h:116
+msgid "Scanning"
+msgstr "Kuvanluku"
+
+#: ../data/toc.xml.in.h:117
+msgid "Science"
+msgstr "Tiede"
+
+#: ../data/toc.xml.in.h:118
+msgid "Security"
+msgstr "Tietoturva"
+
+#: ../data/toc.xml.in.h:119
+msgid "Sequencers"
+msgstr "Sekvensserit"
+
+#: ../data/toc.xml.in.h:120
+msgid "Settings"
+msgstr "Asetukset"
+
+#: ../data/toc.xml.in.h:121
+msgid "Settings users can manipulate to make their environment more pleasant"
+msgstr "Asetukset, joiden avulla ympäristöstä voi tehdä viihtyisämmän"
+
+#: ../data/toc.xml.in.h:122
+msgid "Simulation Games"
+msgstr "Simulaattoripelit"
+
+#: ../data/toc.xml.in.h:123
+msgid "Sound"
+msgstr "Ääni"
+
+#: ../data/toc.xml.in.h:124
+msgid "Sound &amp; Video"
+msgstr "Ääni &amp; video"
+
+#: ../data/toc.xml.in.h:125
+msgid "Sound &amp; Video Editing"
+msgstr "Äänen ja videon muokkaus"
+
+#: ../data/toc.xml.in.h:126
+msgid "Sports"
+msgstr "Urheilu"
+
+#: ../data/toc.xml.in.h:127
+msgid "Sports Games"
+msgstr "Urheilupelit"
+
+#: ../data/toc.xml.in.h:128
+msgid "Spreadsheet Tools"
+msgstr "Taulukkolaskennan työkalut"
+
+#: ../data/toc.xml.in.h:129
+msgid "Strategy Games"
+msgstr "Strategiapelit"
+
+#: ../data/toc.xml.in.h:130
+msgid "System"
+msgstr "Järjestelmä"
+
+#: ../data/toc.xml.in.h:131
+msgid "TV"
+msgstr "TV"
+
+#: ../data/toc.xml.in.h:132
+msgid "Telephony"
+msgstr "Puhelin"
+
+#: ../data/toc.xml.in.h:133
+msgid "Telephony Tools"
+msgstr "Puhelintyökalut"
+
+#: ../data/toc.xml.in.h:134
+msgid "Terminal Emulator"
+msgstr "Pääte-emulaattori"
+
+#: ../data/toc.xml.in.h:135
+msgid "Text Editors"
+msgstr "Tekstimuokkaimet"
+
+#: ../data/toc.xml.in.h:136
+msgid "Text Tools"
+msgstr "Tekstityökalut"
+
+#: ../data/toc.xml.in.h:137
+msgid "Tools to help you manage your computer"
+msgstr "Tietokoneen hallinnassa auttavat työkalut"
+
+#: ../data/toc.xml.in.h:138
+msgid "Translation Tools"
+msgstr "Käännöstyökalut"
+
+#: ../data/toc.xml.in.h:139
+msgid "Tuners"
+msgstr "Virittimet"
+
+#: ../data/toc.xml.in.h:140
+msgid "Utilities"
+msgstr "Apuohjelmat"
+
+#: ../data/toc.xml.in.h:141
+msgid "Utilities to help you get work done"
+msgstr "Työn valmiiksi saamisessa auttavat apuohjelmat"
+
+#: ../data/toc.xml.in.h:142
+msgid "Vector Graphics"
+msgstr "Vektorigrafiikka"
+
+#: ../data/toc.xml.in.h:143
+msgid "Video"
+msgstr "Video"
+
+#: ../data/toc.xml.in.h:144
+msgid "Video Conference"
+msgstr "Videoneuvottelu"
+
+#. Translators: This is a menu title for graphics viewing applications
+#: ../data/toc.xml.in.h:146
+msgid "Viewer"
+msgstr "Katselin"
+
+#: ../data/toc.xml.in.h:147
+msgid "Web Browser"
+msgstr "WWW-selain"
+
+#: ../data/toc.xml.in.h:148
+msgid "Web Development"
+msgstr "WWW-kehitys"
+
+#: ../data/toc.xml.in.h:149
+msgid "Welcome to the GNOME Help Browser"
+msgstr "Tervetuloa käyttämään Gnomen ohjeselainta"
+
+#: ../data/toc.xml.in.h:150
+msgid "Word Processors"
+msgstr "Tekstinkäsittely"
+
+#: ../data/ui/yelp-bookmarks.ui.h:1
+msgid "Bookmarks"
+msgstr "Kirjanmerkit"
+
+#: ../data/ui/yelp-bookmarks.ui.h:2
+msgid "Re_name"
+msgstr "_Nimeä uudelleen"
+
+#: ../data/ui/yelp-bookmarks.ui.h:3
+msgid "_Bookmarks:"
+msgstr "_Kirjanmerkit:"
+
+#: ../data/ui/yelp-bookmarks-add.ui.h:1
+msgid "Add Bookmark"
+msgstr "Lisää kirjanmerkki"
+
+#: ../data/ui/yelp-bookmarks-add.ui.h:2
+msgid "_Title:"
+msgstr "_Otsikko:"
+
+#: ../data/ui/yelp-open-location.ui.h:1
+msgid "Open Location"
+msgstr "Avaa sijainti"
+
+#: ../data/ui/yelp-open-location.ui.h:2
+msgid "_Location:"
+msgstr "Si_jainti:"
+
+#: ../data/ui/yelp-preferences.ui.h:2
+msgid "Fonts"
+msgstr "Kirjasimet"
+
+#: ../data/ui/yelp-preferences.ui.h:3
+msgid "Preferences"
+msgstr "Asetukset"
+
+#: ../data/ui/yelp-preferences.ui.h:4
+msgid "_Browse with caret"
+msgstr "S_elaa kohdistimella"
+
+#: ../data/ui/yelp-preferences.ui.h:5
+msgid "_Fixed width:"
+msgstr "_Vakioleveys:"
+
+#: ../data/ui/yelp-preferences.ui.h:6
+msgid "_Use system fonts"
+msgstr "_Käytä järjestelmän kirjasimia:"
+
+#: ../data/ui/yelp-preferences.ui.h:7
+msgid "_Variable width:"
+msgstr "_Vaihteleva leveys:"
+
+#: ../data/yelp.schemas.in.h:1
+msgid "Font for fixed text"
+msgstr "Konekirjoitustekstin kirjasin"
+
+#: ../data/yelp.schemas.in.h:2
+msgid "Font for text"
+msgstr "Tekstin kirjasin"
+
+#: ../data/yelp.schemas.in.h:3
+msgid "Font for text with fixed width."
+msgstr "Vakiolevyinen tekstin kirjasin."
+
+#: ../data/yelp.schemas.in.h:4
+msgid "Font for text with variable width."
+msgstr "Vaihtelevalevyisen tekstin kirjasin."
+
+#: ../data/yelp.schemas.in.h:5
+msgid "Use a keyboard-controllable caret when viewing pages."
+msgstr "Selaa sivuja näppäimistöltä ohjattavan kohdistimen avulla."
+
+#: ../data/yelp.schemas.in.h:6
+msgid "Use caret"
+msgstr "Käytä kohdistinta"
+
+#: ../data/yelp.schemas.in.h:7
+msgid "Use system fonts"
+msgstr "Käytä järjestelmän kirjasimia"
+
+#: ../data/yelp.schemas.in.h:8
+msgid "Use the default fonts set for the system."
+msgstr "Käytä järjestelmän oletusarvoisia kirjasimia."
+
+#: ../src/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Tiedosto ei ole kelvollinen .desktop-tiedosto"
+
+#: ../src/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Tunnistamaton työpöytätiedosto versiolla ”%s”"
+
+#: ../src/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "Käynnistetään %s"
+
+#: ../src/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Sovellus ei hyväksy asiakirjoja komentoriviltä"
+
+#: ../src/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Tunnistamaton käynnistysvalitsin: %d"
+
+#: ../src/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Ei voida syöttää asiakirjan URIa työpöytäalkiolle, jonka tyyppi on ”linkki”"
+
+#: ../src/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "Ei ole käynnistettävä kohde"
+
+#: ../src/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Katkaise yhteys istunnonhallintaan"
+
+#: ../src/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Määritä tiedosto, joka sisältää tallennetut asetukset"
+
+#: ../src/eggsmclient.c:228
+msgid "FILE"
+msgstr "TIEDOSTO"
+
+#: ../src/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Määritä istunnonhallintatunniste"
+
+#: ../src/eggsmclient.c:231
+msgid "ID"
+msgstr "TUNNISTE"
+
+#: ../src/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Istunnonhallinnan valitsimet:"
+
+#: ../src/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Näytä istunnonhallinnan valitsimet"
+
+#: ../src/yelp-bookmarks.c:148
+msgid "Open Bookmark in New Window"
+msgstr "Avaa kirjanmerkki uudessa ikkunassa"
+
+#: ../src/yelp-bookmarks.c:152
+msgid "Rename Bookmark"
+msgstr "Vaihda kirjanmerkin nimi"
+
+#: ../src/yelp-bookmarks.c:156
+msgid "Remove Bookmark"
+msgstr "Poista kirjanmerkki"
+
+#: ../src/yelp-bookmarks.c:314
+#, c-format
+msgid "A bookmark titled %s already exists for this page."
+msgstr "Kirjanmerkki nimeltään %s on jo tälle sivulle."
+
+#: ../src/yelp-bookmarks.c:390
+#, c-format
+msgid "A bookmark titled <b>%s</b> already exists for this page."
+msgstr "Kirjanmerkki nimeltään <b>%s</b> on jo tälle sivulle."
+
+#: ../src/yelp-bookmarks.c:403
+msgid "Help Topics"
+msgstr "Ohjeen aiheet"
+
+#: ../src/yelp-bookmarks.c:418
+msgid "Document Sections"
+msgstr "Asiakirjan luvut"
+
+#: ../src/yelp-db-print.c:258 ../src/yelp-db-print.c:350
+#: ../src/yelp-docbook.c:275 ../src/yelp-docbook.c:367 ../src/yelp-info.c:243
+#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-man.c:292
+#: ../src/yelp-man.c:385 ../src/yelp-toc.c:266 ../src/yelp-toc.c:365
+msgid "Page not found"
+msgstr "Sivua ei löytynyt"
+
+#: ../src/yelp-db-print.c:259 ../src/yelp-docbook.c:276 ../src/yelp-info.c:244
+#: ../src/yelp-mallard.c:281 ../src/yelp-man.c:293
+#, c-format
+msgid "The page %s was not found in the document %s."
+msgstr "Sivua %s ei löytynyt asiakirjasta %s."
+
+#: ../src/yelp-db-print.c:351 ../src/yelp-docbook.c:368 ../src/yelp-info.c:339
+#: ../src/yelp-man.c:386
+#, c-format
+msgid "The requested page was not found in the document %s."
+msgstr "Pyydettyä sivua ei löytynyt asiakirjasta %s."
+
+#: ../src/yelp-db-print.c:392 ../src/yelp-docbook.c:410 ../src/yelp-info.c:380
+#: ../src/yelp-man.c:429
+msgid "File not found"
+msgstr "Tiedostoa ei löytynyt"
+
+#: ../src/yelp-db-print.c:393 ../src/yelp-docbook.c:411 ../src/yelp-info.c:381
+#: ../src/yelp-man.c:430
+#, c-format
+msgid "The file ‘%s’ does not exist."
+msgstr "Tiedostoa \"%s\" ei ole olemassa."
+
+#: ../src/yelp-db-print.c:406 ../src/yelp-db-print.c:418
+#: ../src/yelp-docbook.c:424 ../src/yelp-docbook.c:436 ../src/yelp-info.c:395
+#: ../src/yelp-man.c:458 ../src/yelp-toc.c:437
+msgid "Could not parse file"
+msgstr "Tiedostoa ei voitu tulkita"
+
+#: ../src/yelp-db-print.c:407 ../src/yelp-docbook.c:425
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed XML "
+"document."
+msgstr ""
+"Tiedostoa \"%s\" ei voitu jäsentää, koska se ei ole hyvin muotoiltu XML-"
+"tiedosto."
+
+#: ../src/yelp-db-print.c:419 ../src/yelp-docbook.c:437
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because one or more of its included files "
+"is not a well-formed XML document."
+msgstr ""
+"Tiedostoa \"%s\" ei voitu jäsentää, koska yksi siihen sisällytetyistä "
+"tiedostoista ei ole hyvin muotoiltu XML-tiedosto."
+
+#: ../src/yelp-db-print.c:766 ../src/yelp-docbook.c:787
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: ../src/yelp-error.c:132 ../src/yelp-error.c:139
+msgid "Unknown Error"
+msgstr "Tuntematon virhe"
+
+#: ../src/yelp-error.c:136 ../src/yelp-window.c:1710
+msgid "Could Not Read File"
+msgstr "Tiedostoa ei voitu lukea"
+
+#: ../src/yelp-error.c:146
+msgid "No information is available about this error."
+msgstr "Tapahtuneesta virheestä ei ole saatavilla tietoja."
+
+#: ../src/yelp-info.c:396
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed info page."
+msgstr ""
+"Tiedostoa \"%s\" ei voitu jäsentää, koska se ei ole oikeinmuotoiltu info-"
+"tiedosto."
+
+#: ../src/yelp-io-channel.c:132
+#, c-format
+msgid ""
+"The file ‘%s’ could not be read and decoded. The file may be compressed in "
+"an unsupported format."
+msgstr ""
+"Tiedoston \"%s\" luku ja purku epäonnistui. Tiedosto voi olla pakattu ei-"
+"tuettuun muotoon."
+
+#: ../src/yelp-main.c:88
+msgid "Use a private session"
+msgstr "Käytä yksityistä istuntoa"
+
+#: ../src/yelp-main.c:97
+msgid "Define which cache directory to use"
+msgstr "Määrittele käytettävä välihakemisto"
+
+#. Commandline parsing is done here
+#: ../src/yelp-main.c:355
+msgid " GNOME Help Browser"
+msgstr "Gnomen ohjeselain"
+
+#: ../src/yelp-main.c:384 ../yelp.desktop.in.in.h:2
+msgid "Help"
+msgstr "Ohje"
+
+#: ../src/yelp-mallard.c:311
+msgid "Directory not found"
+msgstr "Kansiota ei löytynyt"
+
+#: ../src/yelp-mallard.c:312
+#, c-format
+msgid "The directory ‘%s’ does not exist."
+msgstr "Kansiota \"%s\" ei ole olemassa."
+
+#: ../src/yelp-man.c:459
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed man page."
+msgstr ""
+"Tiedostoa \"%s\" ei voitu jäsentää, koska se ei ole oikeinmuotoiltu ohjesivu."
+
+#: ../src/yelp-print.c:97
+msgid "Print"
+msgstr "Tulosta"
+
+#: ../src/yelp-print.c:167
+msgid "Preparing to print"
+msgstr "Valmistellaan tulostusta"
+
+#: ../src/yelp-print.c:261
+msgid "Printing is not supported on this printer"
+msgstr "Tälle tulostimelle ei voi tulostaa"
+
+#: ../src/yelp-print.c:264
+#, c-format
+msgid "Printer %s does not support postscript printing."
+msgstr "Tulostin %s ei tue postscript-tulostusta."
+
+#: ../src/yelp-print.c:366
+msgid "Waiting to print"
+msgstr "Odotetaan tulostusta"
+
+#: ../src/yelp-print.c:578
+msgid "An error occurred while printing"
+msgstr "Tapahtui virhe tulostettaessa"
+
+#: ../src/yelp-print.c:582
+#, c-format
+msgid "It was not possible to print your document: %s"
+msgstr "Asiakirjaa ei voitu tulostaa: %s"
+
+#: ../src/yelp-search-parser.c:67
+msgid "the GNOME Support Forums"
+msgstr "Gnomen tukifoorumit"
+
+#: ../src/yelp-search-parser.c:285
+#, c-format
+msgid "No results for \"%s\""
+msgstr "Ei tuloksia haulle \"%s\""
+
+#: ../src/yelp-search-parser.c:286
+msgid ""
+"Try using different words to describe the problem you're having or the topic "
+"you want help with."
+msgstr ""
+"Yritä käyttää eri sanoja kuvaamaan ongelmaa, johon haluat etsiä ohjeita."
+
+#: ../src/yelp-search-parser.c:289
+#, c-format
+msgid "Search results for \"%s\""
+msgstr "Haun \"%s\" tulokset"
+
+#. TRANSLATORS: Please don't do anything funny with the
+#. * format arguement.  It isn't really going through a printf
+#. * The %s is used to indicate where the name of the site (linked)
+#. * should be.  This is done in the XSLT
+#.
+#: ../src/yelp-search-parser.c:303
+#, c-format
+msgid "Repeat the search online at %s"
+msgstr "Toista verkkohaku sivustolla %s"
+
+#. Translators: Do not translate this list exactly.  These are
+#. * colon-separated words that aren't useful for choosing search
+#. * results; they will be different for each language. Include
+#. * pronouns, articles, very common verbs and prepositions,
+#. * words from question structures like "tell me about" and
+#. * "how do I", and words for functional states like "not",
+#. * "work", and "broken".
+#.
+#: ../src/yelp-search-parser.c:874
+msgid ""
+"a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:doesn't:"
+"doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:when:has:have:"
+"help:how:i:in:is:it:item:me:my:of:on:or:tell:that:the:thing:this:to:what:"
+"where:who:will:with:won't:wont:why:work:working:works"
+msgstr ""
+"a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:doesn't:"
+"doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:when:has:have:"
+"help:how:i:in:is:it:item:me:my:of:on:or:tell:that:the:thing:this:to:what:"
+"where:who:will:with:won't:wont:why:work:working:works"
+
+#. Translators: This is a list of common prefixes for words.
+#. * Do not translate this directly.  Instead, use a colon
+#. * seperated list of word-starts.  In English, an example
+#. * is re-.  If there is none, please use the term NULL
+#. * If there is only one, please put a colon after.
+#. * E.g. if the common prefix is re then the string would be
+#. * "re:"
+#.
+#: ../src/yelp-search-parser.c:890
+msgid "re"
+msgstr "re"
+
+#. Translators: This is a list of (guess what?) common suffixes
+#. * to words.  Things that may be put at ends of words to slightly
+#. * alter their meaning (like -ing and -s in English).  This is a
+#. * colon seperated list (I like colons).  If there are none,
+#. * please use the string NULL.  If there is only 1, please
+#. * add a colon at the end of the list
+#.
+#: ../src/yelp-search-parser.c:899
+msgid "ers:er:ing:es:s:'s"
+msgstr "ers:er:ing:es:s:'s"
+
+#: ../src/yelp-search-parser.c:1095
+msgid "No Comment"
+msgstr "Ei kommenttia"
+
+#. Much bigger problems
+#: ../src/yelp-search.c:238
+msgid "Search could not be processed"
+msgstr "Hakua ei voitu käsitellä"
+
+#: ../src/yelp-search.c:239
+msgid "The requested search could not be processed."
+msgstr "Pyydettyä hakua ei voitu käsitellä."
+
+#: ../src/yelp-search.c:366
+msgid "Cannot process the search"
+msgstr "Hakua ei voi käsitellä"
+
+#: ../src/yelp-search.c:367
+msgid "The search processor returned invalid results"
+msgstr "Hakukäsittelijä palautti virheellisiä tuloksia"
+
+#: ../src/yelp-toc.c:267
+#, c-format
+msgid "The page %s was not found in the TOC."
+msgstr "Sivua %s ei löytynyt sisällysluettelosta."
+
+#: ../src/yelp-toc.c:366
+msgid "The requested page was not found in the TOC."
+msgstr "Pyydettyä sivua ei löytynyt sisällysluettelosta."
+
+#: ../src/yelp-toc.c:438
+msgid ""
+"The TOC file could not be parsed because it is not a well-formed XML "
+"document."
+msgstr ""
+"TOC-tiedostoa ei voitu jäsentää, koska se ei ole hyvin muotoiltu XML-"
+"tiedosto."
+
+#: ../src/yelp-transform.c:86
+msgid "Invalid Stylesheet"
+msgstr "Virheellinen tyylipohja"
+
+#: ../src/yelp-transform.c:87
+#, c-format
+msgid "The XSLT stylesheet ‘%s’ is either missing, or it is not valid."
+msgstr "XSLT-tyylipohja \"%s\" puuttuu tai se on virheellinen."
+
+#: ../src/yelp-transform.c:122
+msgid "Broken Transformation"
+msgstr "Rikkinäinen muunnos"
+
+#: ../src/yelp-transform.c:123
+msgid "An unknown error occurred while attempting to transform the document."
+msgstr "Tapahtui tuntematon virhe yritettäessä muuntaa asiakirjaa."
+
+#: ../src/yelp-transform.c:389
+msgid "No href attribute found on yelp:document\n"
+msgstr "href-määrettä ei löytynyt kohteesta yelp:document\n"
+
+#: ../src/yelp-transform.c:404
+msgid "Out of memory"
+msgstr "Muisti lopussa"
+
+#: ../src/yelp-window.c:304
+msgid "_File"
+msgstr "_Tiedosto"
+
+#: ../src/yelp-window.c:305
+msgid "_Edit"
+msgstr "_Muokkaa"
+
+#: ../src/yelp-window.c:306
+msgid "_Go"
+msgstr "_Siirry"
+
+#: ../src/yelp-window.c:307
+msgid "_Bookmarks"
+msgstr "_Kirjanmerkit"
+
+#: ../src/yelp-window.c:308
+msgid "_Help"
+msgstr "O_hje"
+
+#: ../src/yelp-window.c:311
+msgid "_New Window"
+msgstr "_Uusi ikkuna"
+
+#: ../src/yelp-window.c:316
+msgid "Print This Document ..."
+msgstr "Tulosta tämä asiakirja..."
+
+#: ../src/yelp-window.c:321
+msgid "Print This Page ..."
+msgstr "Tulosta tämä sivu..."
+
+#: ../src/yelp-window.c:326
+msgid "About This Document"
+msgstr "Tietoja tästä asiakirjasta"
+
+#: ../src/yelp-window.c:331
+msgid "Open _Location"
+msgstr "Avaa si_jainti"
+
+#: ../src/yelp-window.c:336
+msgid "_Close Window"
+msgstr "_Sulje ikkuna"
+
+#: ../src/yelp-window.c:342
+msgid "_Copy"
+msgstr "_Kopioi"
+
+#: ../src/yelp-window.c:348
+msgid "_Select All"
+msgstr "Valitse k_aikki"
+
+#: ../src/yelp-window.c:353
+msgid "_Find..."
+msgstr "_Etsi..."
+
+#: ../src/yelp-window.c:358
+msgid "Find Pre_vious"
+msgstr "Etsi _edellinen"
+
+#: ../src/yelp-window.c:360
+msgid "Find previous occurrence of the word or phrase"
+msgstr "Etsi sanan tai lauseen edellinen esiintymä"
+
+#: ../src/yelp-window.c:363
+msgid "Find Ne_xt"
+msgstr "Etsi _seuraava"
+
+#: ../src/yelp-window.c:365
+msgid "Find next occurrence of the word or phrase"
+msgstr "Etsi sanan tai lauseen seuraava esiintymä"
+
+#: ../src/yelp-window.c:368
+msgid "_Preferences"
+msgstr "As_etukset"
+
+#: ../src/yelp-window.c:373
+msgid "_Reload"
+msgstr "_Päivitä"
+
+#: ../src/yelp-window.c:385
+msgid "_Back"
+msgstr "E_dellinen"
+
+#: ../src/yelp-window.c:387
+msgid "Show previous page in history"
+msgstr "Näytä edellinen sivu"
+
+#: ../src/yelp-window.c:390
+msgid "_Forward"
+msgstr "S_euraava"
+
+#: ../src/yelp-window.c:392
+msgid "Show next page in history"
+msgstr "Näytä seuraava sivu"
+
+#: ../src/yelp-window.c:395
+msgid "_Help Topics"
+msgstr "_Ohjeen aiheet"
+
+#: ../src/yelp-window.c:397
+msgid "Go to the listing of help topics"
+msgstr "Siirry ohjeen aiheiden luetteloon"
+
+#: ../src/yelp-window.c:400
+msgid "_Previous Section"
+msgstr "_Edellinen luku"
+
+#: ../src/yelp-window.c:405
+msgid "_Next Section"
+msgstr "_Seuraava luku"
+
+#: ../src/yelp-window.c:410 ../src/yelp-window.c:442
+msgid "_Contents"
+msgstr "_Sisältö"
+
+#: ../src/yelp-window.c:416
+msgid "_Add Bookmark"
+msgstr "_Lisää kirjanmerkki"
+
+#: ../src/yelp-window.c:421
+msgid "_Edit Bookmarks..."
+msgstr "_Muokkaa kirjanmerkkejä..."
+
+#: ../src/yelp-window.c:427
+msgid "_Open Link"
+msgstr "_Avaa linkki"
+
+#: ../src/yelp-window.c:432
+msgid "Open Link in _New Window"
+msgstr "Avaa linkki _uudessa ikkunassa"
+
+#: ../src/yelp-window.c:437
+msgid "_Copy Link Address"
+msgstr "K_opioi linkin osoite"
+
+#: ../src/yelp-window.c:444
+msgid "Help On this application"
+msgstr "Apua tämän ohjelman käytössä"
+
+#: ../src/yelp-window.c:447
+msgid "_About"
+msgstr "_Tietoja"
+
+#: ../src/yelp-window.c:452
+msgid "Copy _Email Address"
+msgstr "Kopioi _sähköpostiosoite"
+
+#: ../src/yelp-window.c:524
+msgid "Help Browser"
+msgstr "Ohjeselain"
+
+#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1772
+msgid "Loading..."
+msgstr "Latautuu..."
+
+#: ../src/yelp-window.c:620 ../src/yelp-window.c:672
+msgid "Unknown Page"
+msgstr "Tuntematon sivu"
+
+#: ../src/yelp-window.c:1042 ../src/yelp-window.c:1104
+#: ../src/yelp-window.c:1113
+#, c-format
+msgid "The requested URI \"%s\" is invalid"
+msgstr "Pyydetty URI \"%s\" on virheellinen"
+
+#: ../src/yelp-window.c:1043 ../src/yelp-window.c:1106
+#: ../src/yelp-window.c:1114
+msgid "Unable to load page"
+msgstr "Sivua ei voi ladata"
+
+#: ../src/yelp-window.c:1330
+msgid "_Search:"
+msgstr "_Hae:"
+
+#: ../src/yelp-window.c:1331
+msgid "Search for other documentation"
+msgstr "Hae muita ohjeita"
+
+#: ../src/yelp-window.c:1351
+msgid "Cannot create window"
+msgstr "Ikkunaa ei voi luoda"
+
+#: ../src/yelp-window.c:1357
+msgid "Cannot create search component"
+msgstr "Hakukomponenttia ei voi luoda"
+
+#: ../src/yelp-window.c:1529
+msgid "Fin_d:"
+msgstr "_Etsi:"
+
+#: ../src/yelp-window.c:1551
+msgid "Find _Previous"
+msgstr "Etsi _edellinen"
+
+#: ../src/yelp-window.c:1563
+msgid "Find _Next"
+msgstr "Etsi _seuraava"
+
+#: ../src/yelp-window.c:1576
+msgid "Phrase not found"
+msgstr "Lausetta ei löytynyt"
+
+#: ../src/yelp-window.c:1707
+#, c-format
+msgid ""
+"The file ‘%s’ could not be read.  This file might be missing, or you might "
+"not have permissions to read it."
+msgstr ""
+"Tiedoston \"%s\" lukeminen ei onnistunut. Tiedosto voi puuttua, tai sinulla "
+"ei ole oikeuksia sen lukemiseen."
+
+#. Note to translators: put here your name (and address) so it
+#. * will show up in the "about" box
+#: ../src/yelp-window.c:2577
+msgid "translator-credits"
+msgstr ""
+"Ilkka Tuohela, 2004-2005\n"
+"Pauli Virtanen, 2004-2005\n"
+"Lauri Nurmi, 2003-2004\n"
+"Henri Mannerberg, 2002-2003\n"
+"\n"
+"http://gnome.fi/"
+
+#: ../src/yelp-window.c:2580
+msgid "Yelp"
+msgstr "Yelp"
+
+#: ../src/yelp-window.c:2582
+msgid "A documentation browser and viewer for the Gnome Desktop."
+msgstr "Ohjeiden selaus- ja katseluohjelma Gnome-työpöytää varten."
+
+#: ../yelp.desktop.in.in.h:1
+msgid "Get help with GNOME"
+msgstr "Hae apua Gnomen käytössä"
+
+#~ msgid "<b>Accessibility</b>"
+#~ msgstr "<b>Esteettömyys</b>"
+
+#~ msgid "<b>Fonts</b>"
+#~ msgstr "<b>Kirjasinlajit</b>"
+
+#~ msgid "C_ase sensitive"
+#~ msgstr "H_uomioi kirjainkoko"
+
+#~ msgid "Find"
+#~ msgstr "Etsi"
+
+#~ msgid "_Find:"
+#~ msgstr "_Etsi:"
+
+#~ msgid "_Next"
+#~ msgstr "_Seuraava"
+
+#~ msgid "_Previous"
+#~ msgstr "_Edellinen"
+
+#~ msgid "_Wrap around"
+#~ msgstr "_Jatka etsintää alusta"
+
+#~ msgid "Error executing \"gnome-open\""
+#~ msgstr "Virhe suoritettaessa komentoa \"gnome-open\""
+
+#~ msgid "Accessories"
+#~ msgstr "Apuvälineet"
+
+#~ msgid "Applications for fun"
+#~ msgstr "Ajanvietesovellukset"
+
+#~ msgid "Applications for word processing and other office tasks"
+#~ msgstr "Sovellukset tekstinkäsittelyyn ja muihin toimistotehtäviin"
+
+#~ msgid "Applications related to multimedia"
+#~ msgstr "Multimediasovellukset"
+
+#~ msgid "Applications related to software development"
+#~ msgstr "Ohjelmistokehitys-sovellukset"
+
+#~ msgid "Applications specific to the panel"
+#~ msgstr "Paneeliin liittyvät sovellukset"
+
+#~ msgid "Applications that support assistive technologies"
+#~ msgstr "Esteettömyystuen sovellukset"
+
+#~ msgid "KDE"
+#~ msgstr "KDE"
+
+#~ msgid "Learning applications"
+#~ msgstr "Opetussovellukset"
+
+#~ msgid "Office"
+#~ msgstr "Toimisto"
+
+#~ msgid "Panel Applets"
+#~ msgstr "Paneelisovelmat"
+
+#~ msgid "Programming"
+#~ msgstr "Ohjelmointi"
+
+#~ msgid "Scientific Applications."
+#~ msgstr "Tieteelliset sovellukset"
+
+#~ msgid "Utility applications"
+#~ msgstr "Apuohjelmat"
+
+#~ msgid "Variety of other applications"
+#~ msgstr "Joukko sekalaisia ohjelmia"
+
+#~ msgid ""
+#~ "The file ‘%s’ could not be parsed. Either the file does not exist, or it "
+#~ "is not well-formed XML."
+#~ msgstr ""
+#~ "Tiedostoa \"%s\" ei voitu jäsentää. Tiedosto ei ole olemassa tai se ei "
+#~ "ole hyvin muotoiltu XML-tiedosto."
+
+#~ msgid ""
+#~ "The file  ‘%s’ could not be parsed. Either the file does not exist, or it "
+#~ "is not a well-formed info page."
+#~ msgstr ""
+#~ "Tiedostoa \"%s\" ei voitu jäsentää. Joko tiedostoa ei ole olemassa, tai "
+#~ "se ei ole oikeinmuotoiltu info-tiedosto."
+
+#~ msgid ""
+#~ "The file ‘%s’ could not be parsed.  Either the file does not exist, or it "
+#~ "is formatted incorrectly."
+#~ msgstr ""
+#~ "Tiedostoa \"%s\" ei voitu jäsentää. Tiedostoa ei ole olemassa tai se on "
+#~ "väärin muotoiltu."
+
+#~ msgid "Document Information"
+#~ msgstr "Asiakirjan tiedot"
+
+#~ msgid "The YelpDocInfo struct of the document"
+#~ msgstr "Asiakirjan YelpDocInfo-struct"
+
+#~ msgid ""
+#~ "Your search could not be processed. The file ‘%s’ is either missing or is "
+#~ "not a valid XSLT stylesheet."
+#~ msgstr ""
+#~ "Hakuasi ei voitu käsitellä. Tiedosto \"%s\" puuttuu tai ei ole "
+#~ "kelvollinen XSLT-tyylisivu."
+
+#~ msgid "Help Contents"
+#~ msgstr "Ohjeen sisältö"
+
+#~ msgid "Could not load the OMF file '%s'."
+#~ msgstr "OMF-tiedostoa \"%s\" ei voitu ladata."
+
+#~ msgid "YelpTocPager: Pause count is negative."
+#~ msgstr "YelpTocPager: Taukomäärä on negatiivinen."
+
+#~ msgid ""
+#~ "The table of contents could not be processed. The file ‘%s’ is either "
+#~ "missing or is not a valid XSLT stylesheet."
+#~ msgstr ""
+#~ "Sisällysluettelon käsittely epäonnistui. Tiedosto \"%s\" puuttuu tai ei "
+#~ "ole kelvollinen XSLT-tyylisivu."
+
+#~ msgid "Read man page for %s"
+#~ msgstr "Lue manuaalisivu %s"
+
+#~ msgid "Read info page for %s"
+#~ msgstr "Lue info-sivu %s"
+
+#~ msgid ""
+#~ "The table of contents could not be loaded. The file ‘%s’ is either "
+#~ "missing or is not well-formed XML."
+#~ msgstr ""
+#~ "Sisällysluettelon lataaminen epäonnistui. Tiedosto \"%s\" joko puuttuu "
+#~ "tai ei ole hyvämuotoista XML:ää."
+
+#~ msgid "Command Line Help"
+#~ msgstr "Komentorivin ohjeet"
+
+#~ msgid ""
+#~ "The file ‘%s’ could not be parsed. Either the file does not exist, or it "
+#~ "is improperly formatted."
+#~ msgstr ""
+#~ "Tiedoston \"%s\" jäsennys epäonnistui. Tiedosto ei joko ole olemassa, tai "
+#~ "se on väärin muotoiltu."
+
+#~ msgid ""
+#~ "The document ‘%s’ could not be processed. The file ‘%s’ is either "
+#~ "missing, or it is not a valid XSLT stylesheet."
+#~ msgstr ""
+#~ "Asiakirjan \"%s\" käsittely epäonnistui. Tiedosto \"%s\" joko puuttuu, "
+#~ "tai se ei ole kelvollinen XSLT-tyylisivu."
+
+#~ msgid "An unknown error occured"
+#~ msgstr "Tuntematon virhe tapahtui"
+
+#~ msgid "Could not load document"
+#~ msgstr "Asiakirjan lataaminen epäonnistui"
+
+#~ msgid "Could not read the table of contents"
+#~ msgstr "Sisällysluettelon lukeminen epäonnistui"
+
+#~ msgid "Unsupported Format"
+#~ msgstr "Ei-tuettu muoto"
+
+#~ msgid "<b>Printing</b>"
+#~ msgstr "<b>Tulostus</b>"
+
+#~ msgid "yelp-watermark-blockquote-201C"
+#~ msgstr "yelp-watermark-blockquote-201D"
+
+#~ msgid "The Uniform Resource Identifier for the file is invalid."
+#~ msgstr "Tiedoston sijainti (URL) on virheellinen."
+
+#~ msgid ""
+#~ "The Uniform Resource Identifier ‘%s’ is invalid or does not point to an "
+#~ "actual file."
+#~ msgstr "URL \"%s\" on virheellinen eikä osoita tiedostoon."
+
+#~ msgid "Man pages are not supported in this version."
+#~ msgstr "Manuaalisivuja ei voi lukea tällä versiolla."
+
+#~ msgid "GNU info pages are not supported in this version"
+#~ msgstr "GNU info-sivuja ei voi lukea tällä versiolla."
+
+#~ msgid "Search is not supported in this version."
+#~ msgstr "Tämä versio ei tue hakua."
+
+#~ msgid ""
+#~ "SGML documents are no longer supported. Please ask the author of the "
+#~ "document to convert to XML."
+#~ msgstr ""
+#~ "SGML-asiakirjoja ei voi enää lukea tällä ohjelmalla. Kehota asiakirjan "
+#~ "tekijää muuntamaan se XML-muotoon."
+
+#~ msgid ""
+#~ "A transformation context could not be created for the file ‘%s’. The "
+#~ "format may not be supported."
+#~ msgstr ""
+#~ "Muunnoskontekstin luonti tiedostoa \"%s\" varten epäonnistui. "
+#~ "Tiedostomuoto ei välttämättä ole tuettu."
+
+#~ msgid ""
+#~ "The section ‘%s’ does not exist in this document. If you were directed to "
+#~ "this section from a Help button in an application, please report this to "
+#~ "the maintainers of that application."
+#~ msgstr ""
+#~ "Lukua \"%s\" ei ole asiakirjassa. Jos painoit jonkin ohjelman Ohje-"
+#~ "painiketta, ja tämä luku avautui, ilmoita tästä kyseisen ohjelman "
+#~ "ylläpitäjille."
+
+#~ msgid ""
+#~ "http://gnomesupport.org/forums/search.php?search_keywords=%s&search_cat=1"
+#~ msgstr ""
+#~ "http://gnomesupport.org/forums/search.php?search_keywords=%s&search_cat=1"
+
+#~ msgid "Generating PDF is not currently supported"
+#~ msgstr "PDF-tulosteen luonti ei ole vielä tuettu"
+
+#~ msgid ""
+#~ "You were trying to print to a printer using the \"%s\" driver.  This "
+#~ "program requires a PostScript printer driver."
+#~ msgstr ""
+#~ "Yritit tulostaa tulostimelle \"%s\"-ajurilla. Tämä ohjelma vaatii "
+#~ "kuitenkin PostScript-tulostinajurin."
+
+#~ msgid "_From:"
+#~ msgstr "_Alkaen:"
+
+#~ msgid "Sets the start of the range of pages to be printed"
+#~ msgstr "Aseta ensimmäinen tulostettava sivu"
+
+#~ msgid "_To:"
+#~ msgstr "_Saakka:"
+
+#~ msgid "Sets the end of the range of pages to be printed"
+#~ msgstr "Aseta viimeinen tulostettava sivu"
+
+#~ msgid ""
+#~ "Could not display help for Yelp.\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Yelpin ohjetta ei voi näyttää.\n"
+#~ "%s"
+
+#~ msgid "Library Functions"
+#~ msgstr "Kirjastofunktiot"
+
+#~ msgid "Other"
+#~ msgstr "Muut"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"
+
+#~ msgid "Yelp Factory"
+#~ msgstr "Yelp-tehdas"
+
+#~ msgid "Could not activate Yelp: '%s'"
+#~ msgstr "Yelpin aktivointi epäonnistui: \"%s\""
+
+#~ msgid ""
+#~ "Your search could not be processed. There is no connection to the beagle "
+#~ "daemon."
+#~ msgstr "Hakua ei voitu käsitellä. Beagle-palvelimeen ei saada yhteyttä."
+
+#~ msgid "<b>_Bookmarks:</b>"
+#~ msgstr "<b>_Kirjanmerkit:</b>"
+
+#~ msgid "<b>_Title:</b>"
+#~ msgstr "<b>_Otsikko:</b>"

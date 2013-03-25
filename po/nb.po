@@ -1,0 +1,1556 @@
+# Norwegian (bokmål) translation of yelp.
+# Copyright © 2001-2004 Free Software Foundation, Inc.
+# Kjartan Maraas <kmaraas@gnome.org>, 2001-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: yelp 2.27.x\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-14 10:27+0200\n"
+"PO-Revision-Date: 2009-09-14 10:29+0200\n"
+"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
+"Language-Team: Norsk (bokmål) <i18n-nb@lister.ping.uio.no>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/info.xml.in.h:1
+msgid "GNU Info Pages"
+msgstr "GNU Infosider"
+
+#: ../data/info.xml.in.h:2
+msgid "Traditional command line help (info)"
+msgstr "Tradisjonell hjelp for kommandolinjen (info)"
+
+#: ../data/man.xml.in.h:1
+msgid "Applications"
+msgstr "Programmer"
+
+#: ../data/man.xml.in.h:2
+msgid "BLT Functions"
+msgstr "BLT-funksjoner"
+
+#: ../data/man.xml.in.h:3
+msgid "Configuration Files"
+msgstr "Konfigurasjonsfiler"
+
+#: ../data/man.xml.in.h:4
+msgid "Curses Functions"
+msgstr "Curses-funksjoner"
+
+#: ../data/man.xml.in.h:5 ../data/toc.xml.in.h:35
+msgid "Development"
+msgstr "Utvikling"
+
+#: ../data/man.xml.in.h:6
+msgid "FORTRAN Functions"
+msgstr "FORTRAN-funksjoner"
+
+#: ../data/man.xml.in.h:7 ../data/toc.xml.in.h:56
+msgid "Games"
+msgstr "Spill"
+
+#: ../data/man.xml.in.h:8
+msgid "Hardware Devices"
+msgstr "Maskinvareenheter"
+
+#: ../data/man.xml.in.h:9
+msgid "Kernel Routines"
+msgstr "Kjernerutiner"
+
+#: ../data/man.xml.in.h:10
+msgid "Manual Pages"
+msgstr "Manualsider"
+
+#: ../data/man.xml.in.h:11
+msgid "Network Audio Sound Functions"
+msgstr "Network Audio Sound-funksjoner"
+
+#: ../data/man.xml.in.h:12
+msgid "OpenSSL Applications"
+msgstr "OpenSSL-programmer"
+
+#: ../data/man.xml.in.h:13
+msgid "OpenSSL Configuration"
+msgstr "OpenSSL-konfigurasjon"
+
+#: ../data/man.xml.in.h:14
+msgid "OpenSSL Functions"
+msgstr "OpenSSL-funksjoner"
+
+#: ../data/man.xml.in.h:15
+msgid "OpenSSL Overviews"
+msgstr "OpenSSL-oversikter"
+
+#: ../data/man.xml.in.h:16
+msgid "Overviews"
+msgstr "Oversikter"
+
+#: ../data/man.xml.in.h:17
+msgid "POSIX Functions"
+msgstr "POSIX-funksjoner"
+
+#: ../data/man.xml.in.h:18
+msgid "POSIX Headers"
+msgstr "POSIX-headere"
+
+#: ../data/man.xml.in.h:19
+msgid "Perl Functions"
+msgstr "Perl-funksjoner"
+
+#: ../data/man.xml.in.h:20
+msgid "Qt Functions"
+msgstr "Qt-funksjoner"
+
+#: ../data/man.xml.in.h:21
+msgid "Readline Functions"
+msgstr "Readline-funksjoner"
+
+#: ../data/man.xml.in.h:22
+msgid "Section 0p"
+msgstr "Seksjon 0p"
+
+#: ../data/man.xml.in.h:23
+msgid "Section 1m"
+msgstr "Seksjon 1m"
+
+#: ../data/man.xml.in.h:24
+msgid "Section 1ssl"
+msgstr "Seksjon 1ssl"
+
+#: ../data/man.xml.in.h:25
+msgid "Section 1x"
+msgstr "Seksjon 1x"
+
+#: ../data/man.xml.in.h:26
+msgid "Section 2"
+msgstr "Seksjon 2"
+
+#: ../data/man.xml.in.h:27
+msgid "Section 3blt"
+msgstr "Seksjon 3blt"
+
+#: ../data/man.xml.in.h:28
+msgid "Section 3f"
+msgstr "Seksjon 3f"
+
+#: ../data/man.xml.in.h:29
+msgid "Section 3nas"
+msgstr "Seksjon 3nas"
+
+#: ../data/man.xml.in.h:30
+msgid "Section 3p"
+msgstr "Seksjon 3p"
+
+#: ../data/man.xml.in.h:31
+msgid "Section 3qt"
+msgstr "Seksjon 3qt"
+
+#: ../data/man.xml.in.h:32
+msgid "Section 3readline"
+msgstr "Seksjon 3readline"
+
+#: ../data/man.xml.in.h:33
+msgid "Section 3ssl"
+msgstr "Seksjon 3ssl"
+
+#: ../data/man.xml.in.h:34
+msgid "Section 3tiff"
+msgstr "Seksjon 3tiff"
+
+#: ../data/man.xml.in.h:35
+msgid "Section 4"
+msgstr "Seksjon 4"
+
+#: ../data/man.xml.in.h:36
+msgid "Section 4x"
+msgstr "Seksjon 4x"
+
+#: ../data/man.xml.in.h:37
+msgid "Section 5"
+msgstr "Seksjon 5"
+
+#: ../data/man.xml.in.h:38
+msgid "Section 5ssl"
+msgstr "Seksjon 5ssl"
+
+#: ../data/man.xml.in.h:39
+msgid "Section 5x"
+msgstr "Seksjon 5x"
+
+#: ../data/man.xml.in.h:40
+msgid "Section 6"
+msgstr "Seksjon 6"
+
+#: ../data/man.xml.in.h:41
+msgid "Section 6x"
+msgstr "Seksjon 6x"
+
+#: ../data/man.xml.in.h:42
+msgid "Section 7ssl"
+msgstr "Seksjon 7ssl"
+
+#: ../data/man.xml.in.h:43
+msgid "Section 7x"
+msgstr "Seksjon 7x"
+
+#: ../data/man.xml.in.h:44
+msgid "Section 9"
+msgstr "Seksjon 9"
+
+#: ../data/man.xml.in.h:45
+msgid "Sections 1, 1p, 1g and 1t"
+msgstr "Seksjon 1, 1p, 1g og 1t"
+
+#: ../data/man.xml.in.h:46
+msgid "Sections 3, 3o, and 3t"
+msgstr "Seksjon 3, 3o og 3t"
+
+#: ../data/man.xml.in.h:47
+msgid "Sections 3form and 3menu"
+msgstr "Selsjon 3form og 3menu"
+
+#: ../data/man.xml.in.h:48
+msgid "Sections 3ncurses and 3curses"
+msgstr "Seksjon 3ncurses og 3curses"
+
+#: ../data/man.xml.in.h:49
+msgid "Sections 3pm and 3perl"
+msgstr "Seksjon 3pm og 3perl"
+
+#: ../data/man.xml.in.h:50
+msgid "Sections 3x and 3X11"
+msgstr "Seksjon 3x og 3X11"
+
+#: ../data/man.xml.in.h:51
+msgid "Sections 7 and 7gcc"
+msgstr "Seksjon 7 og 7gcc"
+
+#: ../data/man.xml.in.h:52
+msgid "Sections 8 and 8l"
+msgstr "Seksjon 8 og 8l"
+
+#: ../data/man.xml.in.h:53
+msgid "System Administration"
+msgstr "Systemadministrasjon"
+
+#: ../data/man.xml.in.h:54
+msgid "System Calls"
+msgstr "Systemkall"
+
+#: ../data/man.xml.in.h:55
+msgid "System V Form/Menu Functions"
+msgstr "System V skjema/meny-funksjoner"
+
+#: ../data/man.xml.in.h:56
+msgid "TIFF Functions"
+msgstr "TIFF-funksjoner"
+
+#: ../data/man.xml.in.h:57
+msgid "Termcap Applications"
+msgstr "Termcap-programmer"
+
+#: ../data/man.xml.in.h:58
+msgid "Traditional command line help (man)"
+msgstr "Tradisjonell hjelp for kommandolinjen (man)"
+
+#: ../data/man.xml.in.h:59
+msgid "X11 Applications"
+msgstr "X11-programmer"
+
+#: ../data/man.xml.in.h:60
+msgid "X11 Configuration"
+msgstr "X11-konfigurasjon"
+
+#: ../data/man.xml.in.h:61
+msgid "X11 Devices"
+msgstr "X11-enheter"
+
+#: ../data/man.xml.in.h:62
+msgid "X11 Functions"
+msgstr "X11-funksjoner"
+
+#: ../data/man.xml.in.h:63
+msgid "X11 Games"
+msgstr "X11-spill"
+
+#: ../data/man.xml.in.h:64
+msgid "X11 Overviews"
+msgstr "X11-oversikter"
+
+#: ../data/toc.xml.in.h:1
+msgid "2D Graphics"
+msgstr "2D-grafikk"
+
+#: ../data/toc.xml.in.h:2
+msgid "3D Graphics"
+msgstr "3D-grafikk"
+
+#: ../data/toc.xml.in.h:3 ../data/ui/yelp-preferences.ui.h:1
+msgid "Accessibility"
+msgstr "Tilgjengelighet"
+
+#: ../data/toc.xml.in.h:4
+msgid "Action Games"
+msgstr "Action spill"
+
+#: ../data/toc.xml.in.h:5
+msgid "Adventure Games"
+msgstr "Eventyrspill"
+
+#: ../data/toc.xml.in.h:6
+msgid "Amusement"
+msgstr "Underholdning"
+
+#: ../data/toc.xml.in.h:7
+msgid "Applications for viewing and manipulating graphics"
+msgstr "Programmer for å manipulere eller vise grafikk"
+
+#: ../data/toc.xml.in.h:8
+msgid "Applications related to audio and video"
+msgstr "Programmer relatert til lyd og bilde"
+
+#: ../data/toc.xml.in.h:9
+msgid "Applications that teach or aid in learning"
+msgstr "Programmer for læring eller hjelp til læring"
+
+#: ../data/toc.xml.in.h:10
+msgid "Arcade Games"
+msgstr "Arkadespill"
+
+#: ../data/toc.xml.in.h:11
+msgid "Archiving Tools"
+msgstr "Arkiveringsverktøy"
+
+#: ../data/toc.xml.in.h:12
+msgid "Art"
+msgstr "Kunst"
+
+#: ../data/toc.xml.in.h:13
+msgid "Artificial Intelligence"
+msgstr "Kunstig intelligens"
+
+#: ../data/toc.xml.in.h:14
+msgid "Astronomy"
+msgstr "Astronomi"
+
+#: ../data/toc.xml.in.h:15
+msgid "Biology"
+msgstr "Biologi"
+
+#: ../data/toc.xml.in.h:16
+msgid "Blocks Games"
+msgstr "Blokkspill"
+
+#: ../data/toc.xml.in.h:17
+msgid "Board Games"
+msgstr "Brettspill"
+
+#: ../data/toc.xml.in.h:18
+msgid "Building"
+msgstr "Bygging"
+
+#: ../data/toc.xml.in.h:19
+msgid "Calculator"
+msgstr "Kalkulator"
+
+#: ../data/toc.xml.in.h:20
+msgid "Calendar"
+msgstr "Kalender"
+
+#: ../data/toc.xml.in.h:21
+msgid "Card Games"
+msgstr "Kortspill"
+
+#: ../data/toc.xml.in.h:22
+msgid "Charting Tools"
+msgstr "Plotteverktøy"
+
+#: ../data/toc.xml.in.h:23
+msgid "Chat"
+msgstr "Prat"
+
+#: ../data/toc.xml.in.h:24
+msgid "Chemistry"
+msgstr "Kjemi"
+
+#: ../data/toc.xml.in.h:25
+msgid "Clocks"
+msgstr "Klokker"
+
+#: ../data/toc.xml.in.h:26
+msgid "Compression Tools"
+msgstr "Komprimeringsverktøy"
+
+#: ../data/toc.xml.in.h:27
+msgid "Computer Science"
+msgstr "Informatikk"
+
+#: ../data/toc.xml.in.h:28
+msgid "Construction"
+msgstr "Konstruksjon"
+
+#: ../data/toc.xml.in.h:29
+msgid "Contact Management"
+msgstr "Kontakthåndtering"
+
+#: ../data/toc.xml.in.h:30
+msgid "Data Visualization"
+msgstr "Datavisualisering"
+
+#: ../data/toc.xml.in.h:31
+msgid "Databases"
+msgstr "Databaser"
+
+#: ../data/toc.xml.in.h:32
+msgid "Debuggers"
+msgstr "Feilsøkere"
+
+#: ../data/toc.xml.in.h:33
+msgid "Desktop"
+msgstr "Skrivebord"
+
+#: ../data/toc.xml.in.h:34
+msgid "Desktop Settings"
+msgstr "Skrivebordsinnstillinger"
+
+#: ../data/toc.xml.in.h:36
+msgid "Dialup"
+msgstr "Oppringt samband"
+
+#: ../data/toc.xml.in.h:37
+msgid "Dictionaries"
+msgstr "Ordbøker"
+
+#. Translators: this is a menu title for burning audio and video to dics
+#: ../data/toc.xml.in.h:39
+msgid "Disc Burning"
+msgstr "CD-brenning"
+
+#: ../data/toc.xml.in.h:40
+msgid "Economy"
+msgstr "Økonomi"
+
+#: ../data/toc.xml.in.h:41
+msgid "Education"
+msgstr "Utdanning"
+
+#: ../data/toc.xml.in.h:42
+msgid "Electricity"
+msgstr "Elektrisitet"
+
+#: ../data/toc.xml.in.h:43
+msgid "Electronics"
+msgstr "Elektronikk"
+
+#: ../data/toc.xml.in.h:44
+msgid "Email Tools"
+msgstr "E-postverktøy"
+
+#: ../data/toc.xml.in.h:45
+msgid "Emulator"
+msgstr "Emulator"
+
+#: ../data/toc.xml.in.h:46
+msgid "Engineering"
+msgstr "Ingeniørfag"
+
+#: ../data/toc.xml.in.h:47
+msgid "File Manager"
+msgstr "Filhåndterere"
+
+#: ../data/toc.xml.in.h:48
+msgid "File Tools"
+msgstr "Filverktøy"
+
+#: ../data/toc.xml.in.h:49
+msgid "File Transfer"
+msgstr "Filoverføring"
+
+#: ../data/toc.xml.in.h:50
+msgid "Filesystem"
+msgstr "Filsystem"
+
+#: ../data/toc.xml.in.h:51
+msgid "Financial Tools"
+msgstr "Finansverktøy"
+
+#: ../data/toc.xml.in.h:52
+msgid "Flow Charting Tools"
+msgstr "Flytdiagramverktøy"
+
+#: ../data/toc.xml.in.h:53
+msgid "GNOME Applications"
+msgstr "GNOME programmer"
+
+#: ../data/toc.xml.in.h:54
+msgid "GTK"
+msgstr "GTK"
+
+#: ../data/toc.xml.in.h:55
+msgid "GUI Designers"
+msgstr "Utforming av brukergrensesnitt"
+
+#: ../data/toc.xml.in.h:57
+msgid "Generic applications for the GNOME environment"
+msgstr "Generiske programmer for GNOME"
+
+#: ../data/toc.xml.in.h:58
+msgid "Generic applications for the KDE environment"
+msgstr "Programmer for KDE-miljøet"
+
+#: ../data/toc.xml.in.h:59
+msgid "Geography"
+msgstr "Geografi"
+
+#: ../data/toc.xml.in.h:60
+msgid "Geology"
+msgstr "Geologi"
+
+#: ../data/toc.xml.in.h:61
+msgid "Geoscience"
+msgstr "Geologi"
+
+#: ../data/toc.xml.in.h:62
+msgid "Graphics"
+msgstr "Grafikk"
+
+#: ../data/toc.xml.in.h:63
+msgid "Guides and manuals for applications that connect to the outside world"
+msgstr ""
+"Veiledninger og håndbøker for programmer for kommunikasjon med omverdenen"
+
+#: ../data/toc.xml.in.h:64
+msgid "Guides for getting involved in development"
+msgstr "Veiledninger for å bli involvert i utvikling"
+
+#: ../data/toc.xml.in.h:65
+msgid "Ham Radio"
+msgstr "Ham-radio"
+
+#: ../data/toc.xml.in.h:66
+msgid "Hardware Settings"
+msgstr "Maskinvareinnstillinger"
+
+#: ../data/toc.xml.in.h:67
+msgid "Have some fun"
+msgstr "Ha det moro"
+
+#: ../data/toc.xml.in.h:68
+msgid "History"
+msgstr "Historie"
+
+#: ../data/toc.xml.in.h:69
+msgid "IDEs"
+msgstr "Integrerte utviklingsmiljøer"
+
+#: ../data/toc.xml.in.h:70
+msgid "IRC Clients"
+msgstr "IRC-klienter"
+
+#: ../data/toc.xml.in.h:71
+msgid "Image Processing"
+msgstr "Bildehåndtering"
+
+#: ../data/toc.xml.in.h:72
+msgid "Instant Messaging"
+msgstr "Lynmeldinger"
+
+#: ../data/toc.xml.in.h:73
+msgid "Internet"
+msgstr "Internett"
+
+#: ../data/toc.xml.in.h:74
+msgid "Java"
+msgstr "Java"
+
+#: ../data/toc.xml.in.h:75
+msgid "KDE Applications"
+msgstr "KDE programmer"
+
+#: ../data/toc.xml.in.h:76
+msgid "Kids Games"
+msgstr "Barnespill"
+
+#: ../data/toc.xml.in.h:77
+msgid ""
+"Learn more about making your system more accessible for a range of "
+"disabilities"
+msgstr ""
+"Lær mer om å gjøre systemet tilgjengelig for forskjellige typer "
+"funksjonshemming"
+
+#: ../data/toc.xml.in.h:78
+msgid "Licenses"
+msgstr "Lisenser"
+
+#: ../data/toc.xml.in.h:79
+msgid "Literature"
+msgstr "Litteratur"
+
+#: ../data/toc.xml.in.h:80
+msgid "Logic Games"
+msgstr "Spill med logikk"
+
+#: ../data/toc.xml.in.h:81
+msgid "Math"
+msgstr "Matte"
+
+#: ../data/toc.xml.in.h:82
+msgid "Medical Software"
+msgstr "Medisinsk programvare"
+
+#: ../data/toc.xml.in.h:83
+msgid "Midi"
+msgstr "Midi"
+
+#: ../data/toc.xml.in.h:84
+msgid "Miscellaneous Documentation"
+msgstr "Forskjellig dokumentasjon"
+
+#: ../data/toc.xml.in.h:85
+msgid "Mixers"
+msgstr "Miksere"
+
+#: ../data/toc.xml.in.h:86
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../data/toc.xml.in.h:87
+msgid "Motif"
+msgstr "Motif"
+
+#: ../data/toc.xml.in.h:88
+msgid "Music"
+msgstr "Musikk"
+
+#: ../data/toc.xml.in.h:89
+msgid "News"
+msgstr "Nyheter"
+
+#: ../data/toc.xml.in.h:90
+msgid "Numerical Analysis"
+msgstr "Numerisk analyse"
+
+#: ../data/toc.xml.in.h:91
+msgid "OCR"
+msgstr "OCR"
+
+#: ../data/toc.xml.in.h:92
+msgid "Office Applications"
+msgstr "Kontorprogrammer"
+
+#: ../data/toc.xml.in.h:93
+msgid "Office applications"
+msgstr "Kontorprogrammer"
+
+#: ../data/toc.xml.in.h:94
+msgid "Other Documentation"
+msgstr "Annen dokumentasjon"
+
+#: ../data/toc.xml.in.h:95
+msgid "P2P"
+msgstr "P2P"
+
+#: ../data/toc.xml.in.h:96
+msgid "PDA Communication"
+msgstr "PDA-kommunikasjon"
+
+#: ../data/toc.xml.in.h:97
+msgid "Package Manager"
+msgstr "Pakkehåndterer"
+
+#: ../data/toc.xml.in.h:98
+msgid "Parallel Computing"
+msgstr "Parallelle beregninger"
+
+#: ../data/toc.xml.in.h:99
+msgid "Photography"
+msgstr "Fotografi"
+
+#: ../data/toc.xml.in.h:100
+msgid "Physics"
+msgstr "Fysikk"
+
+#. Translators: this is a menu title for audio and video players
+#: ../data/toc.xml.in.h:102
+msgid "Players"
+msgstr "Spillere"
+
+#: ../data/toc.xml.in.h:103
+msgid "Presentation Tools"
+msgstr "Presentasjonsverktøy"
+
+#: ../data/toc.xml.in.h:104 ../src/yelp-print.c:337 ../src/yelp-print.c:364
+msgid "Printing"
+msgstr "Skriver ut"
+
+#: ../data/toc.xml.in.h:105
+msgid "Profiling Tools"
+msgstr "Profileringsverktøy"
+
+#: ../data/toc.xml.in.h:106
+msgid "Project Management Tools"
+msgstr "Prosjekthåndteringsverktøy"
+
+#: ../data/toc.xml.in.h:107
+msgid "Publishing"
+msgstr "Publisering"
+
+#: ../data/toc.xml.in.h:108
+msgid "Qt"
+msgstr "Qt"
+
+#: ../data/toc.xml.in.h:109
+msgid "Raster Graphics"
+msgstr "Rastergrafikk"
+
+#. Translators: this is a menu title for audio and video recorders
+#: ../data/toc.xml.in.h:111
+msgid "Recorders"
+msgstr "Opptakere"
+
+#: ../data/toc.xml.in.h:112
+msgid "Remote Access"
+msgstr "Fjernaksess"
+
+#: ../data/toc.xml.in.h:113
+msgid "Revision Control"
+msgstr "Revisjonskontroll"
+
+#: ../data/toc.xml.in.h:114
+msgid "Robotics"
+msgstr "Robotikk"
+
+#: ../data/toc.xml.in.h:115
+msgid "Role Playing Games"
+msgstr "Rollespill"
+
+#: ../data/toc.xml.in.h:116
+msgid "Scanning"
+msgstr "Skanning"
+
+#: ../data/toc.xml.in.h:117
+msgid "Science"
+msgstr "Vitenskap"
+
+#: ../data/toc.xml.in.h:118
+msgid "Security"
+msgstr "Sikkerhet"
+
+#: ../data/toc.xml.in.h:119
+msgid "Sequencers"
+msgstr "Sequencere"
+
+#: ../data/toc.xml.in.h:120
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: ../data/toc.xml.in.h:121
+msgid "Settings users can manipulate to make their environment more pleasant"
+msgstr ""
+"Innstillinger brukere kan endre for å tilpasse datamaskinen til sine behov"
+
+#: ../data/toc.xml.in.h:122
+msgid "Simulation Games"
+msgstr "Simulatorer"
+
+#: ../data/toc.xml.in.h:123
+msgid "Sound"
+msgstr "Lyd"
+
+#: ../data/toc.xml.in.h:124
+msgid "Sound &amp; Video"
+msgstr "Lyd &amp; bilde"
+
+#: ../data/toc.xml.in.h:125
+msgid "Sound &amp; Video Editing"
+msgstr "Lyd &amp; bilderedigering"
+
+#: ../data/toc.xml.in.h:126
+msgid "Sports"
+msgstr "Sport"
+
+#: ../data/toc.xml.in.h:127
+msgid "Sports Games"
+msgstr "Sportspill"
+
+#: ../data/toc.xml.in.h:128
+msgid "Spreadsheet Tools"
+msgstr "Regnearkverktøy"
+
+#: ../data/toc.xml.in.h:129
+msgid "Strategy Games"
+msgstr "Strategispill"
+
+#: ../data/toc.xml.in.h:130
+msgid "System"
+msgstr "System"
+
+#: ../data/toc.xml.in.h:131
+msgid "TV"
+msgstr "TV"
+
+#: ../data/toc.xml.in.h:132
+msgid "Telephony"
+msgstr "Telefoni"
+
+#: ../data/toc.xml.in.h:133
+msgid "Telephony Tools"
+msgstr "Telefoniverktøy"
+
+#: ../data/toc.xml.in.h:134
+msgid "Terminal Emulator"
+msgstr "Terminalemulator"
+
+#: ../data/toc.xml.in.h:135
+msgid "Text Editors"
+msgstr "Tekstredigeringsprogrammer"
+
+#: ../data/toc.xml.in.h:136
+msgid "Text Tools"
+msgstr "Tekstverktøy"
+
+#: ../data/toc.xml.in.h:137
+msgid "Tools to help you manage your computer"
+msgstr "Verktøy for å håndtere din datamaskin"
+
+#: ../data/toc.xml.in.h:138
+msgid "Translation Tools"
+msgstr "Verktøy for oversetting"
+
+#: ../data/toc.xml.in.h:139
+msgid "Tuners"
+msgstr "Radioer"
+
+#: ../data/toc.xml.in.h:140
+msgid "Utilities"
+msgstr "Verktøy"
+
+#: ../data/toc.xml.in.h:141
+msgid "Utilities to help you get work done"
+msgstr "Verktøy som hjelper for å få jobben gjort"
+
+#: ../data/toc.xml.in.h:142
+msgid "Vector Graphics"
+msgstr "Vektorgrafikk"
+
+#: ../data/toc.xml.in.h:143
+msgid "Video"
+msgstr "Video"
+
+#: ../data/toc.xml.in.h:144
+msgid "Video Conference"
+msgstr "Videokonferanse"
+
+#. Translators: This is a menu title for graphics viewing applications
+#: ../data/toc.xml.in.h:146
+msgid "Viewer"
+msgstr "Visning"
+
+#: ../data/toc.xml.in.h:147
+msgid "Web Browser"
+msgstr "Nettleser"
+
+#: ../data/toc.xml.in.h:148
+msgid "Web Development"
+msgstr "Webutvikling"
+
+#: ../data/toc.xml.in.h:149
+msgid "Welcome to the GNOME Help Browser"
+msgstr "Velkommen til GNOME hjelpleser"
+
+#: ../data/toc.xml.in.h:150
+msgid "Word Processors"
+msgstr "Tekstbehandlere"
+
+#: ../data/ui/yelp-bookmarks.ui.h:1
+msgid "Bookmarks"
+msgstr "Bokmerke"
+
+#: ../data/ui/yelp-bookmarks.ui.h:2
+msgid "Re_name"
+msgstr "E_ndre navn"
+
+#: ../data/ui/yelp-bookmarks.ui.h:3
+msgid "_Bookmarks:"
+msgstr "_Bokmerker:"
+
+#: ../data/ui/yelp-bookmarks-add.ui.h:1
+msgid "Add Bookmark"
+msgstr "Legg til bokmerke"
+
+#: ../data/ui/yelp-bookmarks-add.ui.h:2
+msgid "_Title:"
+msgstr "_Tittel:"
+
+#: ../data/ui/yelp-open-location.ui.h:1
+msgid "Open Location"
+msgstr "Åpne lokasjon"
+
+#: ../data/ui/yelp-open-location.ui.h:2
+msgid "_Location:"
+msgstr "_Lokasjon:"
+
+#: ../data/ui/yelp-preferences.ui.h:2
+msgid "Fonts"
+msgstr "Skrifter"
+
+#: ../data/ui/yelp-preferences.ui.h:3
+msgid "Preferences"
+msgstr "Brukervalg"
+
+#: ../data/ui/yelp-preferences.ui.h:4
+msgid "_Browse with caret"
+msgstr "_Bruk markør"
+
+#: ../data/ui/yelp-preferences.ui.h:5
+msgid "_Fixed width:"
+msgstr "_Fast bredde:"
+
+#: ../data/ui/yelp-preferences.ui.h:6
+msgid "_Use system fonts"
+msgstr "Br_uk systemets skrifter"
+
+#: ../data/ui/yelp-preferences.ui.h:7
+msgid "_Variable width:"
+msgstr "_Variabel bredde:"
+
+#: ../data/yelp.schemas.in.h:1
+msgid "Font for fixed text"
+msgstr "Skrift for fast tekst"
+
+#: ../data/yelp.schemas.in.h:2
+msgid "Font for text"
+msgstr "Skrift for tekst"
+
+#: ../data/yelp.schemas.in.h:3
+msgid "Font for text with fixed width."
+msgstr "Skrift for tekst med fast bredde."
+
+#: ../data/yelp.schemas.in.h:4
+msgid "Font for text with variable width."
+msgstr "Skrift for tekst med variabel bredde."
+
+#: ../data/yelp.schemas.in.h:5
+msgid "Use a keyboard-controllable caret when viewing pages."
+msgstr "Bruk tastaturkontrollert markør ved visning av sider."
+
+#: ../data/yelp.schemas.in.h:6
+msgid "Use caret"
+msgstr "Bruk markør"
+
+#: ../data/yelp.schemas.in.h:7
+msgid "Use system fonts"
+msgstr "Bruk systemets skrifter"
+
+#: ../data/yelp.schemas.in.h:8
+msgid "Use the default fonts set for the system."
+msgstr "Bruk systemets forvalgte skrifter."
+
+#: ../src/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Filen er ikke en gyldig .desktop-fil"
+
+#: ../src/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Ikke gjenkjent Version «%s» i .desktop-fil"
+
+#: ../src/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "Starter %s"
+
+#: ../src/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Programmet tar ikke dokumenter på kommandolinjen"
+
+#: ../src/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Ikke gjenkjeng oppstartsalternativ: %d"
+
+#: ../src/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Kan ikke gi dokument-URIer til en oppføring av «Type=Link»"
+
+#: ../src/eggdesktopfile.c:1392
+#, c-format
+msgid "Not a launchable item"
+msgstr "Ikke en oppstartbar oppføring"
+
+#: ../src/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Slå av tilkobling til sesjonshåndterer"
+
+#: ../src/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Oppgi fil som inneholder lagret konfigurasjon"
+
+#: ../src/eggsmclient.c:228
+msgid "FILE"
+msgstr "FIL"
+
+#: ../src/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Oppgi ID for sesjonshåndtering"
+
+#: ../src/eggsmclient.c:231
+msgid "ID"
+msgstr "ID"
+
+#: ../src/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Alternativer for sesjonshåndtering:"
+
+#: ../src/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Vis alternativer for sesjonshåndtering"
+
+#: ../src/yelp-bookmarks.c:148
+msgid "Open Bookmark in New Window"
+msgstr "Åpne bokmerke i nytt vindu"
+
+#: ../src/yelp-bookmarks.c:152
+msgid "Rename Bookmark"
+msgstr "Endre navn på bokmerke"
+
+#: ../src/yelp-bookmarks.c:156
+msgid "Remove Bookmark"
+msgstr "Fjern bokmerke"
+
+#: ../src/yelp-bookmarks.c:314
+#, c-format
+msgid "A bookmark titled %s already exists for this page."
+msgstr "Et bokmerke med navn %s eksisterer allerede for denne siden."
+
+#: ../src/yelp-bookmarks.c:390
+#, c-format
+msgid "A bookmark titled <b>%s</b> already exists for this page."
+msgstr "Et bokmerke med navn <b>%s</b> eksisterer allerede for denne siden."
+
+#: ../src/yelp-bookmarks.c:403
+msgid "Help Topics"
+msgstr "Hjelpemner"
+
+#: ../src/yelp-bookmarks.c:418
+msgid "Document Sections"
+msgstr "Dokumentdeler"
+
+#: ../src/yelp-db-print.c:258 ../src/yelp-db-print.c:350
+#: ../src/yelp-docbook.c:275 ../src/yelp-docbook.c:367 ../src/yelp-info.c:243
+#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-mallard.c:380
+#: ../src/yelp-man.c:292 ../src/yelp-man.c:385 ../src/yelp-toc.c:266
+#: ../src/yelp-toc.c:365
+msgid "Page not found"
+msgstr "Side ikke funnet"
+
+#: ../src/yelp-db-print.c:259 ../src/yelp-docbook.c:276 ../src/yelp-info.c:244
+#: ../src/yelp-mallard.c:281 ../src/yelp-mallard.c:381 ../src/yelp-man.c:293
+#, c-format
+msgid "The page %s was not found in the document %s."
+msgstr "Siden %s ble ikke funnet i dokument %s."
+
+#: ../src/yelp-db-print.c:351 ../src/yelp-docbook.c:368 ../src/yelp-info.c:339
+#: ../src/yelp-man.c:386
+#, c-format
+msgid "The requested page was not found in the document %s."
+msgstr "Etterspurt side ble ikke funnet i dokument %s."
+
+#: ../src/yelp-db-print.c:392 ../src/yelp-docbook.c:410 ../src/yelp-info.c:380
+#: ../src/yelp-man.c:429
+msgid "File not found"
+msgstr "Fil ikke funnet"
+
+#: ../src/yelp-db-print.c:393 ../src/yelp-docbook.c:411 ../src/yelp-info.c:381
+#: ../src/yelp-man.c:430
+#, c-format
+msgid "The file ‘%s’ does not exist."
+msgstr "Filen «%s» eksisterer ikke."
+
+#: ../src/yelp-db-print.c:406 ../src/yelp-db-print.c:418
+#: ../src/yelp-docbook.c:424 ../src/yelp-docbook.c:436 ../src/yelp-info.c:395
+#: ../src/yelp-man.c:458 ../src/yelp-toc.c:437
+msgid "Could not parse file"
+msgstr "Kunne ikke lese fil"
+
+#: ../src/yelp-db-print.c:407 ../src/yelp-docbook.c:425
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed XML "
+"document."
+msgstr ""
+"Filen «%s» kunne ikke leses fordi den ikke er et gyldig utformet XML-dokument."
+
+#: ../src/yelp-db-print.c:419 ../src/yelp-docbook.c:437
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because one or more of its included files "
+"is not a well-formed XML document."
+msgstr ""
+"Filen «%s» kunne ikke tolkes fordi den eller en inkludert fil ikke er "
+"velformet XML."
+
+#: ../src/yelp-db-print.c:766 ../src/yelp-docbook.c:787
+msgid "Unknown"
+msgstr "Ukjent"
+
+#: ../src/yelp-error.c:132 ../src/yelp-error.c:139
+msgid "Unknown Error"
+msgstr "Ukjent feil"
+
+#: ../src/yelp-error.c:136 ../src/yelp-window.c:1723
+msgid "Could Not Read File"
+msgstr "Kunne ikke lese filen"
+
+#: ../src/yelp-error.c:146
+msgid "No information is available about this error."
+msgstr "Ingen informasjon er tilgjengelig om denne feilen."
+
+#: ../src/yelp-info.c:396
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed info page."
+msgstr "Filen «%s» kunne ikke tolkes fordi den ikke er en velformet info-side."
+
+#: ../src/yelp-io-channel.c:132
+#, c-format
+msgid ""
+"The file ‘%s’ could not be read and decoded. The file may be compressed in "
+"an unsupported format."
+msgstr ""
+"Filen «%s» kunne ikke leses og dekodes. Filen kan være komprimert i et format "
+"som ikke støttes."
+
+#: ../src/yelp-main.c:88
+msgid "Use a private session"
+msgstr "Bruk en privat sesjon"
+
+#: ../src/yelp-main.c:97
+msgid "Define which cache directory to use"
+msgstr "Definer hvilken bufferkatalog som skal brukes"
+
+#. Commandline parsing is done here
+#: ../src/yelp-main.c:355
+msgid " GNOME Help Browser"
+msgstr "GNOME hjelpleser"
+
+#: ../src/yelp-main.c:384 ../yelp.desktop.in.in.h:2
+msgid "Help"
+msgstr "Hjelp"
+
+#: ../src/yelp-mallard.c:311
+msgid "Directory not found"
+msgstr "Katalog ikke funnet"
+
+#: ../src/yelp-mallard.c:312
+#, c-format
+msgid "The directory ‘%s’ does not exist."
+msgstr "Katalogen «%s» eksisterer ikke."
+
+#: ../src/yelp-man.c:459
+#, c-format
+msgid ""
+"The file ‘%s’ could not be parsed because it is not a well-formed man page."
+msgstr "Filen «%s» kunne ikke tolkes fordi den ikke er en velformet manualside."
+
+#: ../src/yelp-print.c:97
+msgid "Print"
+msgstr "Skriv ut"
+
+#: ../src/yelp-print.c:167
+msgid "Preparing to print"
+msgstr "Forbereder utskrift"
+
+#: ../src/yelp-print.c:261
+msgid "Printing is not supported on this printer"
+msgstr "Utskrift er ikke støttet med denne skriveren"
+
+#: ../src/yelp-print.c:264
+#, c-format
+msgid "Printer %s does not support postscript printing."
+msgstr "Skriver %s støtter ikke postscript utskrift."
+
+#: ../src/yelp-print.c:366
+msgid "Waiting to print"
+msgstr "Venter på å skrive ut"
+
+#: ../src/yelp-print.c:578
+msgid "An error occurred while printing"
+msgstr "Det oppsto en feil under utskrift"
+
+#: ../src/yelp-print.c:582
+#, c-format
+msgid "It was not possible to print your document: %s"
+msgstr "Det er ikke mulig å skrive ut dokumentet: %s"
+
+#: ../src/yelp-search-parser.c:67
+msgid "the GNOME Support Forums"
+msgstr "GNOME brukerforum"
+
+#: ../src/yelp-search-parser.c:285
+#, c-format
+msgid "No results for \"%s\""
+msgstr "Ingen resultater for «%s»"
+
+#: ../src/yelp-search-parser.c:286
+msgid ""
+"Try using different words to describe the problem you're having or the topic "
+"you want help with."
+msgstr ""
+"Prøv å bruke forskjellige ord til å beskrive problemet du har eller emnet du "
+"ønsker hjelp om."
+
+#: ../src/yelp-search-parser.c:289
+#, c-format
+msgid "Search results for \"%s\""
+msgstr "Søkeresultater for «%s»"
+
+#. TRANSLATORS: Please don't do anything funny with the
+#. * format arguement.  It isn't really going through a printf
+#. * The %s is used to indicate where the name of the site (linked)
+#. * should be.  This is done in the XSLT
+#.
+#: ../src/yelp-search-parser.c:303
+#, c-format
+msgid "Repeat the search online at %s"
+msgstr "Gjenta søket på på nettet: %s"
+
+#. Translators: Do not translate this list exactly.  These are
+#. * colon-separated words that aren't useful for choosing search
+#. * results; they will be different for each language. Include
+#. * pronouns, articles, very common verbs and prepositions,
+#. * words from question structures like "tell me about" and
+#. * "how do I", and words for functional states like "not",
+#. * "work", and "broken".
+#.
+#: ../src/yelp-search-parser.c:874
+msgid ""
+"a:about:an:are:as:at:be:broke:broken:by:can:can't:dialog:dialogue:do:doesn't:"
+"doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:when:has:have:"
+"help:how:i:in:is:it:item:me:my:of:on:or:tell:that:the:thing:this:to:what:"
+"where:who:will:with:won't:wont:why:work:working:works"
+msgstr ""
+"en:om:er:som:ved:av:kan:kan ikke:dialog:gjør:gjør ikke:forklar:for:fra:få:"
+"fra:fikk:når:har:ha:hjelp:hvordan:jeg:i:det:meg:min:på:eller:fortell:det:"
+"ting:dette:til:hva:hvor:vil:med:wil ikke:hvorfor:fungere:fungerer"
+
+#. Translators: This is a list of common prefixes for words.
+#. * Do not translate this directly.  Instead, use a colon
+#. * seperated list of word-starts.  In English, an example
+#. * is re-.  If there is none, please use the term NULL
+#. * If there is only one, please put a colon after.
+#. * E.g. if the common prefix is re then the string would be
+#. * "re:"
+#.
+#: ../src/yelp-search-parser.c:890
+msgid "re"
+msgstr "re:"
+
+#. Translators: This is a list of (guess what?) common suffixes
+#. * to words.  Things that may be put at ends of words to slightly
+#. * alter their meaning (like -ing and -s in English).  This is a
+#. * colon seperated list (I like colons).  If there are none,
+#. * please use the string NULL.  If there is only 1, please
+#. * add a colon at the end of the list
+#.
+#: ../src/yelp-search-parser.c:899
+msgid "ers:er:ing:es:s:'s"
+msgstr "ere:er:ing:es:s"
+
+#: ../src/yelp-search-parser.c:1095
+msgid "No Comment"
+msgstr "Ingen kommentar"
+
+#. Much bigger problems
+#: ../src/yelp-search.c:238
+msgid "Search could not be processed"
+msgstr "Kunne ikke prosessere søket"
+
+#: ../src/yelp-search.c:239
+msgid "The requested search could not be processed."
+msgstr "Forespurt søk kunne ikke prosesseres."
+
+#: ../src/yelp-search.c:366
+msgid "Cannot process the search"
+msgstr "Kunne ikke prosessere søket"
+
+#: ../src/yelp-search.c:367
+msgid "The search processor returned invalid results"
+msgstr "Søkeprosessoren returnerte ugyldige resultater"
+
+#: ../src/yelp-toc.c:267
+#, c-format
+msgid "The page %s was not found in the TOC."
+msgstr "%s-siden ble ikke funnet i innholdsfortegnelsen."
+
+#: ../src/yelp-toc.c:366
+msgid "The requested page was not found in the TOC."
+msgstr "Etterspurt side ble ikke funnet i innholdsfortegnelsen."
+
+#: ../src/yelp-toc.c:438
+msgid ""
+"The TOC file could not be parsed because it is not a well-formed XML "
+"document."
+msgstr ""
+"Innholdsfortegnelsen kunne ikke tolkes fordi den ikke er et velformet XML-"
+"dokument."
+
+#: ../src/yelp-transform.c:86
+msgid "Invalid Stylesheet"
+msgstr "Ugyldig stilark"
+
+#: ../src/yelp-transform.c:87
+#, c-format
+msgid "The XSLT stylesheet ‘%s’ is either missing, or it is not valid."
+msgstr "XSLT-stilark «%s» mangler eller er ugyldig."
+
+#: ../src/yelp-transform.c:122
+msgid "Broken Transformation"
+msgstr "Feil i transformasjon"
+
+#: ../src/yelp-transform.c:123
+msgid "An unknown error occurred while attempting to transform the document."
+msgstr "En ukjent feil oppsto under forsøk på å transformere dokumentet."
+
+#: ../src/yelp-transform.c:389
+msgid "No href attribute found on yelp:document\n"
+msgstr "Ingen href-attributt funnet på yelp:document\n"
+
+#: ../src/yelp-transform.c:404
+msgid "Out of memory"
+msgstr "Ikke mer minne"
+
+#: ../src/yelp-window.c:304
+msgid "_File"
+msgstr "_Fil"
+
+#: ../src/yelp-window.c:305
+msgid "_Edit"
+msgstr "R_ediger"
+
+#: ../src/yelp-window.c:306
+msgid "_Go"
+msgstr "_Naviger"
+
+#: ../src/yelp-window.c:307
+msgid "_Bookmarks"
+msgstr "_Bokmerker"
+
+#: ../src/yelp-window.c:308
+msgid "_Help"
+msgstr "_Hjelp"
+
+#: ../src/yelp-window.c:311
+msgid "_New Window"
+msgstr "_Nytt vindu"
+
+#: ../src/yelp-window.c:316
+msgid "Print This Document ..."
+msgstr "Skriv ut dette dokumentet..."
+
+#: ../src/yelp-window.c:321
+msgid "Print This Page ..."
+msgstr "Skriv ut denne siden..."
+
+#: ../src/yelp-window.c:326
+msgid "About This Document"
+msgstr "Om dette dokumentet"
+
+#: ../src/yelp-window.c:331
+msgid "Open _Location"
+msgstr "Åpne _lokasjon"
+
+#: ../src/yelp-window.c:336
+msgid "_Close Window"
+msgstr "_Lukk vindu"
+
+#: ../src/yelp-window.c:342
+msgid "_Copy"
+msgstr "_Kopier"
+
+#: ../src/yelp-window.c:348
+msgid "_Select All"
+msgstr "_Velg alt"
+
+#: ../src/yelp-window.c:353
+msgid "_Find..."
+msgstr "_Finn..."
+
+#: ../src/yelp-window.c:358
+msgid "Find Pre_vious"
+msgstr "Finn f_orrige"
+
+#: ../src/yelp-window.c:360
+msgid "Find previous occurrence of the word or phrase"
+msgstr "Finn forrige oppføring av ordet eller frasen"
+
+#: ../src/yelp-window.c:363
+msgid "Find Ne_xt"
+msgstr "Finn ne_ste"
+
+#: ../src/yelp-window.c:365
+msgid "Find next occurrence of the word or phrase"
+msgstr "Finn neste oppføring av ordet eller frasen"
+
+#: ../src/yelp-window.c:368
+msgid "_Preferences"
+msgstr "_Brukervalg"
+
+#: ../src/yelp-window.c:373
+msgid "_Reload"
+msgstr "_Gjenles"
+
+#: ../src/yelp-window.c:385
+msgid "_Back"
+msgstr "Til_bake"
+
+#: ../src/yelp-window.c:387
+msgid "Show previous page in history"
+msgstr "Vis forrige side i historikken"
+
+#: ../src/yelp-window.c:390
+msgid "_Forward"
+msgstr "_Fremover"
+
+#: ../src/yelp-window.c:392
+msgid "Show next page in history"
+msgstr "Vis neste side i historikken"
+
+#: ../src/yelp-window.c:395
+msgid "_Help Topics"
+msgstr "_Hjelpemner"
+
+#: ../src/yelp-window.c:397
+msgid "Go to the listing of help topics"
+msgstr "Gå til listen over hjelpemner"
+
+#: ../src/yelp-window.c:400
+msgid "_Previous Section"
+msgstr "_Forrige del"
+
+#: ../src/yelp-window.c:405
+msgid "_Next Section"
+msgstr "_Neste del"
+
+#: ../src/yelp-window.c:410 ../src/yelp-window.c:442
+msgid "_Contents"
+msgstr "_Innhold"
+
+#: ../src/yelp-window.c:416
+msgid "_Add Bookmark"
+msgstr "_Legg til bokmerke"
+
+#: ../src/yelp-window.c:421
+msgid "_Edit Bookmarks..."
+msgstr "R_ediger bokmerker..."
+
+#: ../src/yelp-window.c:427
+msgid "_Open Link"
+msgstr "Å_pne lenke"
+
+#: ../src/yelp-window.c:432
+msgid "Open Link in _New Window"
+msgstr "Åpne lenke i _nytt vindu"
+
+#: ../src/yelp-window.c:437
+msgid "_Copy Link Address"
+msgstr "_Kopier lenkens adresse"
+
+#: ../src/yelp-window.c:444
+msgid "Help On this application"
+msgstr "Hjelp for dette programmet"
+
+#: ../src/yelp-window.c:447
+msgid "_About"
+msgstr "_Om"
+
+#: ../src/yelp-window.c:452
+msgid "Copy _Email Address"
+msgstr "Kopier e-postadresse"
+
+#: ../src/yelp-window.c:524
+msgid "Help Browser"
+msgstr "Hjelp leser"
+
+#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1785
+msgid "Loading..."
+msgstr "Laster..."
+
+#: ../src/yelp-window.c:620 ../src/yelp-window.c:672
+msgid "Unknown Page"
+msgstr "Ukjent side"
+
+#: ../src/yelp-window.c:1042 ../src/yelp-window.c:1104
+#: ../src/yelp-window.c:1113
+#, c-format
+msgid "The requested URI \"%s\" is invalid"
+msgstr "Etterspurt URI «%s» er ugyldig"
+
+#: ../src/yelp-window.c:1043 ../src/yelp-window.c:1106
+#: ../src/yelp-window.c:1114
+msgid "Unable to load page"
+msgstr "Kan ikke laste siden"
+
+#: ../src/yelp-window.c:1343
+msgid "_Search:"
+msgstr "_Søk:"
+
+#: ../src/yelp-window.c:1344
+msgid "Search for other documentation"
+msgstr "Søk etter annen dokumentasjon"
+
+#: ../src/yelp-window.c:1364
+msgid "Cannot create window"
+msgstr "Kan ikke opprette vindu"
+
+#: ../src/yelp-window.c:1370
+msgid "Cannot create search component"
+msgstr "Kan ikke opprette søkekomponent"
+
+#: ../src/yelp-window.c:1542
+msgid "Fin_d:"
+msgstr "_Finn:"
+
+#: ../src/yelp-window.c:1564
+msgid "Find _Previous"
+msgstr "_Finn forrige"
+
+#: ../src/yelp-window.c:1576
+msgid "Find _Next"
+msgstr "Finn _neste"
+
+#: ../src/yelp-window.c:1589
+msgid "Phrase not found"
+msgstr "Frase ikke funnet"
+
+#: ../src/yelp-window.c:1720
+#, c-format
+msgid ""
+"The file ‘%s’ could not be read.  This file might be missing, or you might "
+"not have permissions to read it."
+msgstr ""
+"Filen «%s» kunne ikke leses. Filen kan mangle eller kanskje du ikke har "
+"rettigheter til å lese den."
+
+#. Note to translators: put here your name (and address) so it
+#. * will show up in the "about" box
+#: ../src/yelp-window.c:2602
+msgid "translator-credits"
+msgstr "Kjartan Maraas <kmaraas@gnome.org>"
+
+#: ../src/yelp-window.c:2605
+msgid "Yelp"
+msgstr "Yelp"
+
+#: ../src/yelp-window.c:2607
+msgid "A documentation browser and viewer for the Gnome Desktop."
+msgstr "Program for å finne og lese dokumentasjon for GNOME skrivebordet."
+
+#: ../yelp.desktop.in.in.h:1
+msgid "Get help with GNOME"
+msgstr "Få hjelp med GNOME"
